@@ -1,1 +1,0 @@
-{"name": "dax_query_operations", "arguments": {"request": {"operation": "Execute", "query": "EVALUATE GBA_Rendimientos\n", "maxRows": 50000}}}

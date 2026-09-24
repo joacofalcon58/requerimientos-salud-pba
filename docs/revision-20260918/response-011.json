@@ -1,1 +1,0 @@
-{"result": {"content": [{"type": "text", "text": "{\"success\":true}"}, {"type": "resource", "resource": {"uri": "file:///C:/Users/joaco/AppData/Local/Temp/PowerBIModelingMCP/QueryResults/dax_query_result_20260918_124904_490.csv", "mimeType": "text/csv", "text": "[Rows],[Demand2005],[Demand2024]\r\n43725,50466975,121826050\r\n"}}], "isError": false}, "id": 13, "jsonrpc": "2.0"}
