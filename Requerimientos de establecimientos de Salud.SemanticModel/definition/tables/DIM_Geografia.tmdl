@@ -1,0 +1,76 @@
+table DIM_Geografia
+	lineageTag: 71c24723-bc62-442b-a272-478b56e174f5
+
+	column municipio_id
+		dataType: string
+		lineageTag: a0515934-9102-44e2-b34e-b4f184df4077
+		summarizeBy: none
+		sourceColumn: municipio_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column municipio_nombre
+		dataType: string
+		lineageTag: 0ffebbc0-4567-4ac7-8130-d9912501b853
+		summarizeBy: none
+		sourceColumn: municipio_nombre
+
+		annotation SummarizationSetBy = Automatic
+
+	column region_sanitaria
+		dataType: string
+		lineageTag: baeb1d71-e0e2-42fa-bdae-674567e08d2e
+		summarizeBy: none
+		sourceColumn: region_sanitaria
+
+		annotation SummarizationSetBy = Automatic
+
+	column latitud
+		dataType: double
+		lineageTag: e6f9aa38-f37c-4651-ba15-9f5632bb7de5
+		summarizeBy: none
+		sourceColumn: latitud
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column longitud
+		dataType: double
+		lineageTag: 719c1657-8259-47d3-85c6-e4309f6b7909
+		summarizeBy: none
+		sourceColumn: longitud
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition DIM_Geografia = m
+		mode: import
+		source =
+				let
+				    Origen = GBA_Rendimientos,
+				    #"Columnas seleccionadas" = Table.SelectColumns(Origen, {"anio", "municipio_id", "municipio_nombre", "region_sanitaria"}),
+				    #"Nulos quitados" = Table.SelectRows(#"Columnas seleccionadas", each [municipio_id] <> null and [municipio_nombre] <> null),
+				    #"Nombre normalizado" = Table.AddColumn(#"Nulos quitados", "municipio_nombre_norm", each Text.Upper(Text.Trim(Text.Clean([municipio_nombre]))), type text),
+				    #"Merge por ID" = Table.NestedJoin(#"Nombre normalizado", {"municipio_id"}, #"aux_Georef_Municipios", {"municipio_id_georef"}, "GeorefID", JoinKind.LeftOuter),
+				    #"Georef ID expandido" = Table.ExpandTableColumn(#"Merge por ID", "GeorefID", {"municipio_id_georef", "municipio_georef", "latitud", "longitud"}, {"id_por_id", "nombre_por_id", "lat_por_id", "lon_por_id"}),
+				    #"Merge por nombre" = Table.NestedJoin(#"Georef ID expandido", {"municipio_nombre_norm"}, #"aux_Georef_Municipios", {"municipio_nombre_norm"}, "GeorefNombre", JoinKind.LeftOuter),
+				    #"Georef nombre expandido" = Table.ExpandTableColumn(#"Merge por nombre", "GeorefNombre", {"municipio_id_georef", "municipio_georef", "latitud", "longitud"}, {"id_por_nombre", "nombre_por_nombre", "lat_por_nombre", "lon_por_nombre"}),
+				    #"ID oficial agregado" = Table.AddColumn(#"Georef nombre expandido", "municipio_id_oficial", each if [id_por_id] <> null then [id_por_id] else [id_por_nombre], type text),
+				    #"Nombre oficial agregado" = Table.AddColumn(#"ID oficial agregado", "municipio_nombre_oficial", each if [nombre_por_id] <> null then [nombre_por_id] else [nombre_por_nombre], type text),
+				    #"Latitud final agregada" = Table.AddColumn(#"Nombre oficial agregado", "latitud", each if [lat_por_id] <> null then [lat_por_id] else [lat_por_nombre], type number),
+				    #"Longitud final agregada" = Table.AddColumn(#"Latitud final agregada", "longitud", each if [lon_por_id] <> null then [lon_por_id] else [lon_por_nombre], type number),
+				    #"Filas con match" = Table.SelectRows(#"Longitud final agregada", each [municipio_id_oficial] <> null),
+				    #"Filas ordenadas" = Table.Sort(#"Filas con match", {{"anio", Order.Descending}}),
+				    #"Duplicados quitados" = Table.Distinct(#"Filas ordenadas", {"municipio_id_oficial"}),
+				    #"Columnas seleccionadas final" = Table.SelectColumns(#"Duplicados quitados", {"municipio_id_oficial", "municipio_nombre_oficial", "region_sanitaria", "latitud", "longitud"}),
+				    #"Columnas renombradas" = Table.RenameColumns(#"Columnas seleccionadas final", {{"municipio_id_oficial", "municipio_id"}, {"municipio_nombre_oficial", "municipio_nombre"}}),
+				    #"Filas ordenadas final" = Table.Sort(#"Columnas renombradas", {{"municipio_nombre", Order.Ascending}})
+				in
+				    #"Filas ordenadas final"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,147 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.157.json",
+  "name": "GBA Salud - Institucional 2026",
+  "dataColors": [
+    "#2878D4",
+    "#E86834",
+    "#1AAC78",
+    "#F2A100",
+    "#00AEC3",
+    "#1F3464",
+    "#592673",
+    "#BE1717",
+    "#74C9E3",
+    "#A3D8E7",
+    "#CAE7EA",
+    "#838383"
+  ],
+  "good": "#22A954",
+  "neutral": "#F2A100",
+  "bad": "#BE1717",
+  "maximum": "#2878D4",
+  "center": "#00AEC3",
+  "minimum": "#CAE7EA",
+  "null": "#838383",
+  "firstLevelElements": "#1F3464",
+  "secondLevelElements": "#626A73",
+  "thirdLevelElements": "#E7EBEE",
+  "fourthLevelElements": "#838383",
+  "background": "#FFFFFF",
+  "secondaryBackground": "#F2F5F6",
+  "tableAccent": "#00AEC3",
+  "textClasses": {
+    "callout": {
+      "fontSize": 26,
+      "fontFace": "Encode Sans ExtraBold",
+      "color": "#1F3464"
+    },
+    "title": {
+      "fontSize": 11,
+      "fontFace": "Encode Sans SemiBold",
+      "color": "#1F3464"
+    },
+    "header": {
+      "fontSize": 11,
+      "fontFace": "Encode Sans SemiBold",
+      "color": "#1F3464"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Roboto",
+      "color": "#626A73"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontFamily": "Encode Sans",
+            "fontSize": 11,
+            "fontColor": {
+              "solid": {
+                "color": "#1F3464"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "alignment": "left"
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#DDE3E6"
+              }
+            },
+            "radius": 8,
+            "width": 1
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "preset": "BottomRight",
+            "color": {
+              "solid": {
+                "color": "#000000"
+              }
+            },
+            "transparency": 88,
+            "position": "Outer"
+          }
+        ],
+        "padding": [
+          {
+            "top": 8,
+            "bottom": 8,
+            "left": 10,
+            "right": 10
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": false
+          }
+        ],
+        "categoryAxis": [
+          {
+            "gridlineStyle": "solid",
+            "gridlineColor": {
+              "solid": {
+                "color": "#E7EBEE"
+              }
+            }
+          }
+        ],
+        "valueAxis": [
+          {
+            "gridlineStyle": "solid",
+            "gridlineColor": {
+              "solid": {
+                "color": "#E7EBEE"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

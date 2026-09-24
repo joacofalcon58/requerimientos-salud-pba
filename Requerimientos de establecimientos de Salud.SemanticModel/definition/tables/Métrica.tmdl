@@ -1,0 +1,48 @@
+table Métrica
+	lineageTag: 10f5ef6c-aa95-4e99-b67b-4b7108aa2a26
+
+	column Métrica
+		lineageTag: f77a3cf2-07b8-45ed-ab53-22ac3993134a
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'Métrica Orden'
+
+		relatedColumnDetails
+			groupByColumn: 'Métrica Campos'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Métrica Campos'
+		isHidden
+		lineageTag: f152d4e4-78bd-4e0d-8e0b-07d30bdaaf75
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'Métrica Orden'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Métrica Orden'
+		isHidden
+		formatString: 0
+		lineageTag: 4b83c5be-8952-4072-8146-e00c123829e4
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Métrica = calculated
+		mode: import
+		source =
+				{
+				    ("Mortalidad %", NAMEOF('GBA_Rendimientos'[Tasa de Mortalidad Hospitalaria %]), 0),
+				    ("Días de estadía", NAMEOF('GBA_Rendimientos'[Promedio Días de Estadía]), 1)
+				}
+
+	annotation PBI_Id = db8140b341f644f0b6c8d1bc551d6929
+

@@ -1,0 +1,108 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "84d223ec213f82d5ec52",
+  "position": {
+    "x": 40,
+    "y": 296,
+    "z": 5000,
+    "height": 70,
+    "width": 1840,
+    "tabOrder": 8000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Segmentación aplicada: ",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "12px",
+                      "color": "#0a5560"
+                    }
+                  },
+                  {
+                    "value": "de 428 establecimientos con datos de internación (promedio 2022–2024), 150 (35%) son hogares geriátricos o de estadía prolongada (estadía media > 30 días) — su lógica de ocupación/rotación no es comparable con internación aguda y quedan excluidos del análisis de saturación. El universo analizado son los 278 establecimientos de agudos con actividad relevante.",
+                    "textStyle": {
+                      "fontSize": "12px",
+                      "color": "#0a5560"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#EAF7F9'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#BFE8EE'"
+                    }
+                  }
+                }
+              }
+            },
+            "radius": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

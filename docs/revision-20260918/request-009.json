@@ -1,0 +1,1 @@
+{"name": "dax_query_operations", "arguments": {"request": {"operation": "Execute", "query": "EVALUATE DIM_Establecimientos\n", "maxRows": 50000}}}

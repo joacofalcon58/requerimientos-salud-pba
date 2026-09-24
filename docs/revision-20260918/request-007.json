@@ -1,0 +1,1 @@
+{"name": "dax_query_operations", "arguments": {"request": {"operation": "Execute", "query": "EVALUATE INFO.VIEW.MEASURES()\n", "maxRows": 50000}}}

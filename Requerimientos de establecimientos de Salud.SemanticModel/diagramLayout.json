@@ -1,0 +1,87 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 446
+          },
+          "nodeIndex": "GBA_Rendimientos",
+          "nodeLineageTag": "47d04211-0831-4081-9d7d-a99767b92059",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 393,
+            "y": 0
+          },
+          "nodeIndex": "Calendario",
+          "nodeLineageTag": "f93b8765-1a7f-47d5-8c82-2c83966cca1d",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 673,
+            "y": 0
+          },
+          "nodeIndex": "DIM_Dependencia",
+          "nodeLineageTag": "78861d5e-951d-4548-9fe7-f8699a592912",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 974,
+            "y": 0
+          },
+          "nodeIndex": "DIM_Establecimientos",
+          "nodeLineageTag": "41dac462-ce63-47d0-a68f-ede55bfffdac",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1276,
+            "y": 0
+          },
+          "nodeIndex": "DIM_Geografia",
+          "nodeLineageTag": "71c24723-bc62-442b-a272-478b56e174f5",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas las tablas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas las tablas",
+  "defaultDiagram": "Todas las tablas"
+}

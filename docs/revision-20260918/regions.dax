@@ -1,0 +1,2 @@
+DEFINE MEASURE GBA_Rendimientos[AuditDemand] = SUM(GBA_Rendimientos[consultas_medicas])+SUM(GBA_Rendimientos[consultas_odontologicas])+SUM(GBA_Rendimientos[consultas_paramedicas])+SUM(GBA_Rendimientos[interconsultas])
+EVALUATE SUMMARIZECOLUMNS(DIM_Geografia[region_sanitaria], "Base", CALCULATE([AuditDemand],GBA_Rendimientos[anio]=2005),"Final",CALCULATE([AuditDemand],GBA_Rendimientos[anio]=2024))

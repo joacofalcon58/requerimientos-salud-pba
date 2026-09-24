@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Requerimientos de establecimientos de Salud"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f86b5813-5f3d-4943-b781-307d45094d55"
+  }
+}

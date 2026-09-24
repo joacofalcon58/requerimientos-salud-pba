@@ -1,0 +1,137 @@
+table Calendario
+	lineageTag: f93b8765-1a7f-47d5-8c82-2c83966cca1d
+	dataCategory: Time
+
+	column Fecha
+		dataType: dateTime
+		isKey
+		formatString: Long Date
+		lineageTag: 8eccff05-1ce6-4574-9e32-4055cb663b82
+		summarizeBy: none
+		sourceColumn: Fecha
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Anio
+		dataType: int64
+		formatString: 0
+		lineageTag: a106bab3-ff31-44b5-83a4-668c62f90a82
+		summarizeBy: none
+		sourceColumn: Anio
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesNro
+		dataType: int64
+		formatString: 0
+		lineageTag: bb2d38b2-9f5c-45ee-90f9-7409bd605d91
+		summarizeBy: none
+		sourceColumn: MesNro
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mes
+		dataType: string
+		lineageTag: dee982fb-a708-4b09-87e4-b7d342c3eaac
+		summarizeBy: none
+		sourceColumn: Mes
+
+		annotation SummarizationSetBy = Automatic
+
+	column AnioMes
+		dataType: string
+		lineageTag: cbd43e2f-1780-4bd1-af46-2e31755ce31e
+		summarizeBy: none
+		sourceColumn: AnioMes
+
+		annotation SummarizationSetBy = Automatic
+
+	column TrimestreNro
+		dataType: int64
+		formatString: 0
+		lineageTag: 6eae5b45-1450-446f-8c66-928b5bd92c9f
+		summarizeBy: none
+		sourceColumn: TrimestreNro
+
+		annotation SummarizationSetBy = Automatic
+
+	column Trimestre
+		dataType: string
+		lineageTag: bf073ec9-e8da-4fe2-b6b6-9108c08e9cdd
+		summarizeBy: none
+		sourceColumn: Trimestre
+
+		annotation SummarizationSetBy = Automatic
+
+	column AnioTrimestre
+		dataType: string
+		lineageTag: a5cf231c-c2e8-4c29-8f83-a568bee162db
+		summarizeBy: none
+		sourceColumn: AnioTrimestre
+
+		annotation SummarizationSetBy = Automatic
+
+	column Dia
+		dataType: int64
+		formatString: 0
+		lineageTag: 5f06a21e-803c-44fc-9733-54256945ed62
+		summarizeBy: none
+		sourceColumn: Dia
+
+		annotation SummarizationSetBy = Automatic
+
+	column DiaSemanaNro
+		dataType: int64
+		formatString: 0
+		lineageTag: 9d2ebbed-735c-4217-9311-9092b79b7549
+		summarizeBy: none
+		sourceColumn: DiaSemanaNro
+
+		annotation SummarizationSetBy = Automatic
+
+	column DiaSemana
+		dataType: string
+		lineageTag: 7708d1fd-ab2d-424d-bb09-029f5e66c9fc
+		summarizeBy: none
+		sourceColumn: DiaSemana
+
+		annotation SummarizationSetBy = Automatic
+
+	column Decada
+		dataType: int64
+		formatString: 0
+		lineageTag: 2961bac3-2c96-4cc6-b343-2f563c065485
+		summarizeBy: none
+		sourceColumn: Decada
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Calendario = m
+		mode: import
+		source =
+				let
+				    #"Fecha inicio" = #date(2005, 1, 1),
+				    #"Fecha fin" = #date(2024, 12, 31),
+				    #"Lista fechas" = List.Dates(#"Fecha inicio", Duration.Days(#"Fecha fin" - #"Fecha inicio") + 1, #duration(1, 0, 0, 0)),
+				    #"Convertido a tabla" = Table.FromList(#"Lista fechas", Splitter.SplitByNothing(), {"Fecha"}),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Convertido a tabla", {{"Fecha", type date}}),
+				    #"Año agregado" = Table.AddColumn(#"Tipo cambiado", "Anio", each Date.Year([Fecha]), Int64.Type),
+				    #"Mes número agregado" = Table.AddColumn(#"Año agregado", "MesNro", each Date.Month([Fecha]), Int64.Type),
+				    #"Mes agregado" = Table.AddColumn(#"Mes número agregado", "Mes", each Date.MonthName([Fecha], "es-AR"), type text),
+				    #"Año mes agregado" = Table.AddColumn(#"Mes agregado", "AnioMes", each Text.From([Anio]) & "-" & Text.PadStart(Text.From([MesNro]), 2, "0"), type text),
+				    #"Trimestre número agregado" = Table.AddColumn(#"Año mes agregado", "TrimestreNro", each Date.QuarterOfYear([Fecha]), Int64.Type),
+				    #"Trimestre agregado" = Table.AddColumn(#"Trimestre número agregado", "Trimestre", each "T" & Text.From([TrimestreNro]), type text),
+				    #"Año trimestre agregado" = Table.AddColumn(#"Trimestre agregado", "AnioTrimestre", each Text.From([Anio]) & "-T" & Text.From([TrimestreNro]), type text),
+				    #"Día agregado" = Table.AddColumn(#"Año trimestre agregado", "Dia", each Date.Day([Fecha]), Int64.Type),
+				    #"Día semana número agregado" = Table.AddColumn(#"Día agregado", "DiaSemanaNro", each Date.DayOfWeek([Fecha], Day.Monday) + 1, Int64.Type),
+				    #"Día semana agregado" = Table.AddColumn(#"Día semana número agregado", "DiaSemana", each Date.DayOfWeekName([Fecha], "es-AR"), type text),
+				    #"Década agregada" = Table.AddColumn(#"Día semana agregado", "Decada", each Number.IntegerDivide([Anio], 10) * 10, Int64.Type)
+				in
+				    #"Década agregada"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

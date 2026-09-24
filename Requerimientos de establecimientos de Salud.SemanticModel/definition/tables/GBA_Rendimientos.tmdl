@@ -1,0 +1,353 @@
+table GBA_Rendimientos
+	lineageTag: 47d04211-0831-4081-9d7d-a99767b92059
+
+	measure 'Total Consultas Médicas' = SUM(GBA_Rendimientos[consultas_medicas])
+		formatString: #,##0
+		displayFolder: 01. Demanda
+		lineageTag: 85226f16-dadb-4e2c-85ad-104f87f2ed1b
+
+	measure 'Total Consultas Odontológicas' = SUM(GBA_Rendimientos[consultas_odontologicas])
+		formatString: #,##0
+		displayFolder: 01. Demanda
+		lineageTag: 567db131-23b9-4072-b1de-ae4899494d9d
+
+	measure 'Total Consultas Paramédicas' = SUM(GBA_Rendimientos[consultas_paramedicas])
+		formatString: #,##0
+		displayFolder: 01. Demanda
+		lineageTag: 6a80cc30-2599-47f1-bec9-90e26eedcfa5
+
+	measure 'Total Interconsultas' = SUM(GBA_Rendimientos[interconsultas])
+		formatString: #,##0
+		displayFolder: 01. Demanda
+		lineageTag: 734d184e-e3c1-47b3-8f5c-77ccb211ce7e
+
+	measure 'Demanda Total de Atención' = [Total Consultas Médicas] + [Total Consultas Odontológicas] + [Total Consultas Paramédicas] + [Total Interconsultas]
+		formatString: #,##0
+		displayFolder: 01. Demanda
+		lineageTag: 22c2ca2e-d393-4a11-8f86-7e3469fa9492
+
+	measure 'Demanda Año Base (2005)' = CALCULATE([Demanda Total de Atención], GBA_Rendimientos[anio] = 2005)
+		formatString: #,##0
+		displayFolder: 01. Demanda
+		lineageTag: d9777a38-3d43-4a5f-85c9-95795c391edc
+
+	measure 'Demanda Año Actual (2024)' = CALCULATE([Demanda Total de Atención], GBA_Rendimientos[anio] = 2024)
+		formatString: #,##0
+		displayFolder: 01. Demanda
+		lineageTag: 896ea13b-30e1-456d-9da5-6a59869f698b
+
+	measure 'Crecimiento Demanda 2005-2024 %' = DIVIDE([Demanda Año Actual (2024)] - [Demanda Año Base (2005)], [Demanda Año Base (2005)])
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 01. Demanda
+		lineageTag: e288e97d-971c-467d-8055-843404ef728b
+
+	measure 'Crecimiento anual compuesto %' = IF([Demanda Año Base (2005)] > 0, (DIVIDE([Demanda Año Actual (2024)], [Demanda Año Base (2005)]) ^ (1/19)) - 1)
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 01. Demanda
+		lineageTag: 9211d769-40bd-414e-ab4a-505df9e3d8c9
+
+	measure 'Total Egresos' = SUM(GBA_Rendimientos[egresos])
+		formatString: #,##0
+		displayFolder: 02. Capacidad Hospitalaria
+		lineageTag: 51815ce3-17d2-4b73-99b6-e5a76371203f
+
+	measure 'Total Defunciones' = SUM(GBA_Rendimientos[defunciones])
+		formatString: #,##0
+		displayFolder: 03. Calidad de Internación
+		lineageTag: 203ffb36-ecfb-428e-b860-45898ad7724f
+
+	measure 'Promedio Días de Estadía' = DIVIDE(SUM(GBA_Rendimientos[dias_estadia]), [Total Egresos])
+		formatString: #,##0.0
+		displayFolder: 03. Calidad de Internación
+		lineageTag: 4328d0b7-236e-4fdd-8acc-e6d49bb8ce03
+
+	measure 'Tasa de Mortalidad Hospitalaria %' = DIVIDE([Total Defunciones], [Total Egresos])
+		formatString: 0.00%
+		displayFolder: 03. Calidad de Internación
+		lineageTag: 30bcafe5-2357-403d-9225-a0816b972f57
+
+	measure 'Crecimiento Demanda Absoluto 2005-2024' = [Demanda Año Actual (2024)] - [Demanda Año Base (2005)]
+		formatString: #,##0
+		displayFolder: 01. Demanda
+		lineageTag: 589e706c-5373-4134-bce3-7fae1404dba9
+
+	measure '% Ocupación Agudos 22-24' = CALCULATE(DIVIDE(SUM(GBA_Rendimientos[pacientes_dias]), SUM(GBA_Rendimientos[dias_camas_disponible])), DIM_Establecimientos[Segmento] = "Agudos", GBA_Rendimientos[anio] >= 2022 && GBA_Rendimientos[anio] <= 2024)
+		formatString: 0.0%
+		displayFolder: 02. Capacidad Hospitalaria
+		lineageTag: 7a8e7f3e-8a9b-4cd8-923c-7eeca316e885
+
+	measure 'Hospitales Saturados' = CALCULATE(COUNTROWS(DIM_Establecimientos), DIM_Establecimientos[Clasificacion Capacidad] = "Saturado")
+		formatString: #,##0
+		displayFolder: 02. Capacidad Hospitalaria
+		lineageTag: 7ad8662d-03b9-4c4b-af5e-f0f014d09cd6
+
+	measure 'Camas Subutilizadas' = CALCULATE(SUM(DIM_Establecimientos[Camas 22_24]), DIM_Establecimientos[Clasificacion Capacidad] = "Subutilizado")
+		formatString: #,##0
+		displayFolder: 02. Capacidad Hospitalaria
+		lineageTag: 2ebd6bad-5503-4738-ba7e-ac593b587011
+
+	measure 'Establecimientos Anomalía Ocupación' = CALCULATE(COUNTROWS(DIM_Establecimientos), DIM_Establecimientos[Clasificacion Capacidad] = "Anomalia de datos")
+		formatString: #,##0
+		displayFolder: 02. Capacidad Hospitalaria
+		lineageTag: 2a8d7803-aa08-4175-90b7-4b3007889a63
+
+	measure 'Ocupación Prom (estab)' = AVERAGE(DIM_Establecimientos[Ocupacion 22_24])
+		formatString: 0.0%
+		displayFolder: 02. Capacidad Hospitalaria
+		lineageTag: c3db8edf-d6a1-4540-b1cc-9107d964efba
+
+	measure 'Giro Prom (estab)' = AVERAGE(DIM_Establecimientos[Giro 22_24])
+		formatString: #,##0.0
+		displayFolder: 02. Capacidad Hospitalaria
+		lineageTag: 374572a5-a4c2-4ca7-adc4-bcaa57de8f6b
+
+	measure 'Camas 22-24 (estab)' = SUM(DIM_Establecimientos[Camas 22_24])
+		formatString: #,##0
+		displayFolder: 02. Capacidad Hospitalaria
+		lineageTag: 575b6af9-7b1f-49d7-96de-7e988c2ac8d8
+
+	measure 'Tasa de Mortalidad Hospitalaria 2024 %' = CALCULATE([Tasa de Mortalidad Hospitalaria %], GBA_Rendimientos[anio] = 2024)
+		formatString: 0.00%
+		displayFolder: 03. Calidad de Internación
+		lineageTag: 826d99ae-c778-40db-bbce-a8acfda73e4a
+
+	measure 'Promedio Días de Estadía 2024' = CALCULATE([Promedio Días de Estadía], GBA_Rendimientos[anio] = 2024)
+		formatString: #,##0.0
+		displayFolder: 03. Calidad de Internación
+		lineageTag: 3e0254a9-52ce-4bc8-9abd-421d3f43e73c
+
+	measure 'Establecimientos Peor Desempeño' = CALCULATE(COUNTROWS(DIM_Establecimientos), DIM_Establecimientos[Desempeno Internacion] = "Peor desempeno")
+		formatString: #,##0
+		displayFolder: 03. Calidad de Internación
+		lineageTag: ea34c637-093d-4985-bede-eeb2c5017be3
+
+	measure 'Estadía relativa a banda (x)' = AVERAGE(DIM_Establecimientos[LOS Ratio])
+		formatString: #,##0.0
+		displayFolder: 03. Calidad de Internación
+		lineageTag: f5fbe027-e0ce-4b96-9b18-5f47a926f3ff
+
+	measure 'Mortalidad relativa a banda (x)' = AVERAGE(DIM_Establecimientos[Mort Ratio])
+		formatString: #,##0.0
+		displayFolder: 03. Calidad de Internación
+		lineageTag: f1c43665-2788-42c9-9e74-de82c3028647
+
+	measure 'Total Defunciones 2024' = CALCULATE([Total Defunciones], GBA_Rendimientos[anio] = 2024)
+		formatString: #,##0
+		displayFolder: 03. Calidad de Internación
+		lineageTag: 457fb981-d238-461c-a09a-a1fac4bafa49
+
+	measure '% Participación en Crecimiento' = DIVIDE([Crecimiento Demanda Absoluto 2005-2024], CALCULATE([Crecimiento Demanda Absoluto 2005-2024], ALL(DIM_Geografia)))
+		formatString: 0.0%
+		displayFolder: 01. Demanda
+		lineageTag: 5a095d75-3f6a-460d-8b5d-02f9c9e8eeff
+
+	measure 'Cantidad por Tipo (2005)' = VAR _tipo = SELECTEDVALUE ( DIM_TipoPrestacion[tipo_prestacion] ) RETURN CALCULATE ( SWITCH ( _tipo, "Consultas médicas", [Total Consultas Médicas], "Consultas odontológicas", [Total Consultas Odontológicas], "Consultas paramédicas", [Total Consultas Paramédicas], "Interconsultas", [Total Interconsultas] ), GBA_Rendimientos[anio] = 2005 )
+		formatString: #,##0
+		displayFolder: 01. Demanda
+		lineageTag: 98223f98-b436-45d2-a207-c86c212d287a
+
+	measure 'Cantidad por Tipo (2024)' = VAR _tipo = SELECTEDVALUE ( DIM_TipoPrestacion[tipo_prestacion] ) RETURN CALCULATE ( SWITCH ( _tipo, "Consultas médicas", [Total Consultas Médicas], "Consultas odontológicas", [Total Consultas Odontológicas], "Consultas paramédicas", [Total Consultas Paramédicas], "Interconsultas", [Total Interconsultas] ), GBA_Rendimientos[anio] = 2024 )
+		formatString: #,##0
+		displayFolder: 01. Demanda
+		lineageTag: 4128db9e-5332-47fe-bc81-faa0744b5ba9
+
+	measure 'Color Crecimiento Demanda' =
+			
+			VAR Valor =
+			    [Crecimiento Demanda Absoluto 2005-2024]
+			RETURN
+			    SWITCH(
+			        TRUE(),
+			        ISBLANK(Valor), "#838383",
+			        Valor > 0, "#22A954",
+			        Valor < 0, "#BE1717",
+			        "#838383"
+			    )
+		displayFolder: 01. Demanda
+		lineageTag: 9fae3de0-64b2-427b-ac43-db0ad863136d
+
+	column anio
+		dataType: int64
+		formatString: 0
+		lineageTag: 1e4862ce-ad92-4351-93a1-e44cccb3496d
+		summarizeBy: sum
+		sourceColumn: anio
+
+		annotation SummarizationSetBy = Automatic
+
+	column dependencia
+		dataType: string
+		lineageTag: ec627b37-03e0-475a-bb5f-b8a1bae231f7
+		summarizeBy: none
+		sourceColumn: dependencia
+
+		annotation SummarizationSetBy = Automatic
+
+	column establecimiento_id
+		dataType: string
+		lineageTag: a7cb43f6-945c-4fdd-ab4a-5f1ded83a54c
+		summarizeBy: none
+		sourceColumn: establecimiento_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column region_sanitaria
+		dataType: string
+		lineageTag: bf7f9a72-b7df-4a0f-9585-21183e49920b
+		summarizeBy: none
+		sourceColumn: region_sanitaria
+
+		annotation SummarizationSetBy = Automatic
+
+	column municipio_id
+		dataType: string
+		lineageTag: 8dd59bb1-06af-4c1f-a3b3-31a700c3b192
+		summarizeBy: none
+		sourceColumn: municipio_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column municipio_nombre
+		dataType: string
+		lineageTag: 7571fd5a-6663-4026-9c74-8e45eb21d836
+		summarizeBy: none
+		sourceColumn: municipio_nombre
+
+		annotation SummarizationSetBy = Automatic
+
+	column establecimiento_nombre
+		dataType: string
+		lineageTag: 9ceeafac-bb3e-45a1-aa92-c0e13693dfad
+		summarizeBy: none
+		sourceColumn: establecimiento_nombre
+
+		annotation SummarizationSetBy = Automatic
+
+	column consultas_odontologicas
+		dataType: int64
+		formatString: 0
+		lineageTag: 60939c4f-773d-4eb5-a419-882d72fe611a
+		summarizeBy: sum
+		sourceColumn: consultas_odontologicas
+
+		annotation SummarizationSetBy = Automatic
+
+	column consultas_medicas
+		dataType: int64
+		formatString: 0
+		lineageTag: adbd4b9b-0062-4522-af41-ac88482fdee1
+		summarizeBy: sum
+		sourceColumn: consultas_medicas
+
+		annotation SummarizationSetBy = Automatic
+
+	column consultas_paramedicas
+		dataType: int64
+		formatString: 0
+		lineageTag: 6584615e-59ae-40ad-88a1-e9204e5bc0ea
+		summarizeBy: sum
+		sourceColumn: consultas_paramedicas
+
+		annotation SummarizationSetBy = Automatic
+
+	column interconsultas
+		dataType: int64
+		formatString: 0
+		lineageTag: 2d465bc7-ea2f-4695-a7e4-42af22d58ace
+		summarizeBy: sum
+		sourceColumn: interconsultas
+
+		annotation SummarizationSetBy = Automatic
+
+	column egresos
+		dataType: int64
+		formatString: 0
+		lineageTag: 43add0ed-6961-4d48-8c36-3fdb6e827aec
+		summarizeBy: sum
+		sourceColumn: egresos
+
+		annotation SummarizationSetBy = Automatic
+
+	column dias_camas_disponible
+		dataType: int64
+		formatString: 0
+		lineageTag: 278e6d6e-a37d-489d-972f-fcfaa82847a6
+		summarizeBy: sum
+		sourceColumn: dias_camas_disponible
+
+		annotation SummarizationSetBy = Automatic
+
+	column promedio_camas_disponibles
+		dataType: int64
+		formatString: 0
+		lineageTag: 47a828b5-efa1-4008-96c7-3e42616dfd17
+		summarizeBy: sum
+		sourceColumn: promedio_camas_disponibles
+
+		annotation SummarizationSetBy = Automatic
+
+	column pacientes_dias
+		dataType: int64
+		formatString: 0
+		lineageTag: 9050ecea-44ec-4005-9dc2-8e0fca2654c7
+		summarizeBy: sum
+		sourceColumn: pacientes_dias
+
+		annotation SummarizationSetBy = Automatic
+
+	column dias_estadia
+		dataType: int64
+		formatString: 0
+		lineageTag: 2aba984d-4786-49e2-b14c-7e079cc8208c
+		summarizeBy: sum
+		sourceColumn: dias_estadia
+
+		annotation SummarizationSetBy = Automatic
+
+	column defunciones
+		dataType: int64
+		formatString: 0
+		lineageTag: 5bddc50a-8b99-4574-92a0-7a9c4400564c
+		summarizeBy: sum
+		sourceColumn: defunciones
+
+		annotation SummarizationSetBy = Automatic
+
+	column Fecha
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 8e54c7d0-6882-4e24-8463-d17c478db063
+		summarizeBy: none
+		sourceColumn: Fecha
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition GBA_Rendimientos = m
+		mode: import
+		source =
+				let
+				    Origen = Sql.Database("NEO", "GBA_Rendimientos"),
+				    #"Navegación 1" = Origen{[Schema = "stg", Item = "rendimiento_2024"]}[Data],
+				    fxEntero2024 = (valor as any) as nullable number => let Texto = if valor = null then null else Text.Trim(Text.From(valor, "en-US")), Numero = if Texto = null or Texto = "" then null else if Text.Contains(Texto, ",") then try Number.FromText(Texto, "es-AR") otherwise null else if Text.Contains(Texto, ".") then try Number.FromText(Texto, "en-US") * 1000 otherwise null else try Number.FromText(Texto, "en-US") otherwise null in if Numero = null then null else Int64.From(Number.Round(Numero, 0)),
+				    fxDecimal2024 = (valor as any) as nullable number => let Texto = if valor = null then null else Text.Trim(Text.From(valor)), Numero = if Texto = null or Texto = "" then null else if Text.Contains(Texto, ",") then try Number.FromText(Texto, "es-AR") otherwise null else try Number.FromText(Texto, "en-US") otherwise null in Numero,
+				    fxIdTexto = (valor as any) as nullable text => let Texto = if valor = null then null else Text.Trim(Text.From(valor, "en-US")) in if Texto = null or Texto = "" then null else if Text.EndsWith(Texto, ".0") then Text.BeforeDelimiter(Texto, ".") else Texto,
+				    fxMunicipioId = (valor as any) as nullable text => let Texto = fxIdTexto(valor), Numeros = if Texto = null then null else Text.Select(Texto, {"0".."9"}), Largo = if Numeros = null then 0 else Text.Length(Numeros) in if Numeros = null or Numeros = "" then null else if Largo = 6 then Numeros else if Largo = 5 then Text.Start(Numeros, 2) & "0" & Text.End(Numeros, 3) else if Largo = 4 then "0" & Text.Start(Numeros, 1) & "0" & Text.End(Numeros, 3) else Numeros,
+				    #"Números 2024 corregidos" = Table.TransformColumns(#"Navegación 1", {{"consultas_odontologicas", fxEntero2024}, {"consultas_medicas", fxEntero2024}, {"consultas_paramedicas", fxEntero2024}, {"interconsultas", fxEntero2024}, {"egresos", fxEntero2024}, {"dias_camas_disponible", fxEntero2024}, {"promedio_camas_disponibles", fxEntero2024}, {"pacientes_dias", fxEntero2024}, {"promedio_dias_estadia", fxEntero2024}, {"giro_de_camas", fxEntero2024}, {"porcentaje_ocupacion", fxDecimal2024}, {"dias_estadia", fxDecimal2024}, {"defunciones", fxDecimal2024}, {"tasa_mortalidad_hospitalaria", fxDecimal2024}}),
+				    #"Columnas temporales" = Table.RenameColumns(#"Números 2024 corregidos", {{"dias_estadia", "_giro_de_camas"}, {"promedio_dias_estadia", "_dias_estadia"}, {"defunciones", "_promedio_dias_estadia"}, {"giro_de_camas", "_defunciones"}}),
+				    #"Columnas 2024 corregidas" = Table.RenameColumns(#"Columnas temporales", {{"_dias_estadia", "dias_estadia"}, {"_promedio_dias_estadia", "promedio_dias_estadia"}, {"_defunciones", "defunciones"}, {"_giro_de_camas", "giro_de_camas"}}),
+				    #"Consulta anexada" = Table.Combine({#"Columnas 2024 corregidas", #"stg rendimiento_2005_2023"}),
+				    #"Columna 0 eliminada" = Table.RemoveColumns(#"Consulta anexada", List.Intersect({Table.ColumnNames(#"Consulta anexada"), {"0"}})),
+				    #"Textos limpios" = Table.TransformColumns(#"Columna 0 eliminada", {{"dependencia", each if _ = null then null else Text.Trim(Text.Clean(Text.From(_))), type nullable text}, {"region_sanitaria", each if _ = null then null else Text.Trim(Text.Clean(Text.From(_))), type nullable text}, {"municipio_nombre", each if _ = null then null else Text.Trim(Text.Clean(Text.From(_))), type nullable text}, {"establecimiento_nombre", each if _ = null then null else Text.Trim(Text.Clean(Text.From(_))), type nullable text}}),
+				    #"IDs normalizados" = Table.TransformColumns(#"Textos limpios", {{"municipio_id", fxMunicipioId, type nullable text}, {"establecimiento_id", fxIdTexto, type nullable text}}),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"IDs normalizados", {{"anio", Int64.Type}, {"dependencia", type text}, {"establecimiento_id", type text}, {"region_sanitaria", type text}, {"municipio_id", type text}, {"municipio_nombre", type text}, {"establecimiento_nombre", type text}, {"consultas_odontologicas", Int64.Type}, {"consultas_medicas", Int64.Type}, {"consultas_paramedicas", Int64.Type}, {"interconsultas", Int64.Type}, {"egresos", Int64.Type}, {"dias_camas_disponible", Int64.Type}, {"promedio_camas_disponibles", Int64.Type}, {"pacientes_dias", Int64.Type}, {"porcentaje_ocupacion", type number}, {"dias_estadia", Int64.Type}, {"promedio_dias_estadia", type number}, {"defunciones", Int64.Type}, {"giro_de_camas", type number}, {"tasa_mortalidad_hospitalaria", type number}}),
+				    #"Fecha agregada" = Table.AddColumn(#"Tipo cambiado", "Fecha", each #date([anio], 1, 1), type date),
+				    #"Columns removed by Measure Killer"= Table.SelectColumns(#"Fecha agregada",{"promedio_camas_disponibles","region_sanitaria","pacientes_dias","establecimiento_nombre","anio","consultas_paramedicas","municipio_id","dias_camas_disponible","defunciones","interconsultas","dias_estadia","dependencia","egresos","consultas_medicas","municipio_nombre","establecimiento_id","consultas_odontologicas","Fecha"})
+				in
+				    #"Columns removed by Measure Killer"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegación
+

@@ -1,0 +1,361 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "b80becd9e6f980b0b2ce",
+  "position": {
+    "x": 40,
+    "y": 714,
+    "z": 7000,
+    "height": 346,
+    "width": 1840,
+    "tabOrder": 6000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DIM_Establecimientos"
+                    }
+                  },
+                  "Property": "establecimiento_nombre"
+                }
+              },
+              "queryRef": "DIM_Establecimientos.establecimiento_nombre",
+              "nativeQueryRef": "Establecimiento",
+              "displayName": "Establecimiento"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DIM_Establecimientos"
+                    }
+                  },
+                  "Property": "Municipio"
+                }
+              },
+              "queryRef": "DIM_Establecimientos.Municipio",
+              "nativeQueryRef": "Municipio"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DIM_Establecimientos"
+                    }
+                  },
+                  "Property": "Dependencia"
+                }
+              },
+              "queryRef": "DIM_Establecimientos.Dependencia",
+              "nativeQueryRef": "Dependencia"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DIM_Establecimientos"
+                    }
+                  },
+                  "Property": "Camas 22_24"
+                }
+              },
+              "queryRef": "DIM_Establecimientos.Camas 22_24",
+              "nativeQueryRef": "Camas 22_24",
+              "displayName": "Camas"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DIM_Establecimientos"
+                    }
+                  },
+                  "Property": "Ocupacion 22_24"
+                }
+              },
+              "queryRef": "DIM_Establecimientos.Ocupacion 22_24",
+              "nativeQueryRef": "Ocupacion 22_24",
+              "displayName": "Ocup."
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DIM_Establecimientos"
+                    }
+                  },
+                  "Property": "Egresos 22_24"
+                }
+              },
+              "queryRef": "DIM_Establecimientos.Egresos 22_24",
+              "nativeQueryRef": "Egresos 22_24",
+              "displayName": "Egresos"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "DIM_Establecimientos"
+                  }
+                },
+                "Property": "Ocupacion 22_24"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "grid": [
+        {
+          "properties": {
+            "gridVertical": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "columnAdjustment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'growToFit'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Establecimientos subutilizados'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Ocupación ≤40% con actividad relevante (≥50 egresos/año) · candidatos a revisión de dotación de camas · 50 establecimientos, 1.977 camas'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "a62daaa20df0de3d731d",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_Establecimientos"
+              }
+            },
+            "Property": "Clasificacion Capacidad"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "e",
+              "Entity": "DIM_Establecimientos",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "e"
+                          }
+                        },
+                        "Property": "Clasificacion Capacidad"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Subutilizado'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "fddb30d6d1ec749a15e0",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_Establecimientos"
+              }
+            },
+            "Property": "establecimiento_nombre"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "35767827e2d68205878e",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_Establecimientos"
+              }
+            },
+            "Property": "Municipio"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "c37584b097a00a52e98c",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_Establecimientos"
+              }
+            },
+            "Property": "Dependencia"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "45e5d3fcce1089dcb544",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_Establecimientos"
+              }
+            },
+            "Property": "Camas 22_24"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "b567064ce98720359033",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_Establecimientos"
+              }
+            },
+            "Property": "Ocupacion 22_24"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "26c5ecdfac85036c6963",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_Establecimientos"
+              }
+            },
+            "Property": "Egresos 22_24"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "bad70302f4d4b4f5db8c",
+  "position": {
+    "x": 39.943018411503829,
+    "y": 795.84840747211365,
+    "z": 10000,
+    "height": 264.03494154011582,
+    "width": 1840.1655691439321,
+    "tabOrder": 8000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DIM_Geografia"
+                    }
+                  },
+                  "Property": "municipio_nombre"
+                }
+              },
+              "queryRef": "DIM_Geografia.municipio_nombre",
+              "nativeQueryRef": "Municipio",
+              "displayName": "Municipio"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DIM_Geografia"
+                    }
+                  },
+                  "Property": "region_sanitaria"
+                }
+              },
+              "queryRef": "DIM_Geografia.region_sanitaria",
+              "nativeQueryRef": "Región Sanitaria",
+              "displayName": "Región Sanitaria"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "GBA_Rendimientos"
+                    }
+                  },
+                  "Property": "Demanda Año Base (2005)"
+                }
+              },
+              "queryRef": "GBA_Rendimientos.Demanda Año Base (2005)",
+              "nativeQueryRef": "Demanda Año Base (2005)"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "GBA_Rendimientos"
+                    }
+                  },
+                  "Property": "Demanda Año Actual (2024)"
+                }
+              },
+              "queryRef": "GBA_Rendimientos.Demanda Año Actual (2024)",
+              "nativeQueryRef": "Demanda Año Actual (2024)"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "GBA_Rendimientos"
+                    }
+                  },
+                  "Property": "Crecimiento Demanda Absoluto 2005-2024"
+                }
+              },
+              "queryRef": "GBA_Rendimientos.Crecimiento Demanda Absoluto 2005-2024",
+              "nativeQueryRef": "Crecimiento Demanda Absoluto 2005-2024",
+              "format": "+ #,0;- #,0;0"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "GBA_Rendimientos"
+                    }
+                  },
+                  "Property": "% Participación en Crecimiento"
+                }
+              },
+              "queryRef": "GBA_Rendimientos.% Participación en Crecimiento",
+              "nativeQueryRef": "% Participación en Crecimiento"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "GBA_Rendimientos"
+                  }
+                },
+                "Property": "% Participación en Crecimiento"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "grid": [
+        {
+          "properties": {
+            "gridVertical": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "columnAdjustment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'growToFit'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "GBA_Rendimientos"
+                        }
+                      },
+                      "Property": "Color Crecimiento Demanda"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "GBA_Rendimientos.Crecimiento Demanda Absoluto 2005-2024"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Participación municipal y regional en el crecimiento de demanda (2005-2024)'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "ec63f6fed4ce7ae4c780",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_Geografia"
+              }
+            },
+            "Property": "municipio_nombre"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "41013019d309752b60c0",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_Geografia"
+              }
+            },
+            "Property": "region_sanitaria"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "6b23acdc5b43159150aa",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GBA_Rendimientos"
+              }
+            },
+            "Property": "Demanda Año Base (2005)"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "3b1c12a3505b6e005b55",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GBA_Rendimientos"
+              }
+            },
+            "Property": "Demanda Año Actual (2024)"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "c17de6324ab59845279a",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GBA_Rendimientos"
+              }
+            },
+            "Property": "Crecimiento Demanda Absoluto 2005-2024"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "cb7715a35bce89438e17",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GBA_Rendimientos"
+              }
+            },
+            "Property": "% Participación en Crecimiento"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

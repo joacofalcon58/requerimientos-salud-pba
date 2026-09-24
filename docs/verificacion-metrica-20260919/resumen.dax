@@ -1,0 +1,11 @@
+EVALUATE
+CALCULATETABLE(
+ ROW(
+ "EgresosHistoria",[Total Egresos],
+ "Egresos2022_24",CALCULATE([Total Egresos],GBA_Rendimientos[anio]>=2022,GBA_Rendimientos[anio]<=2024),
+ "Mortalidad2022_24",CALCULATE([Tasa de Mortalidad Hospitalaria %],GBA_Rendimientos[anio]>=2022,GBA_Rendimientos[anio]<=2024),
+ "Estadia2022_24",CALCULATE([Promedio Días de Estadía],GBA_Rendimientos[anio]>=2022,GBA_Rendimientos[anio]<=2024),
+ "MortColumna",MAX(DIM_Establecimientos[Mortalidad 22_24]),
+ "EstadiaColumna",MAX(DIM_Establecimientos[Estadia Media 22_24])
+ ),TREATAS({"51501436"},DIM_Establecimientos[establecimiento_id])
+)
