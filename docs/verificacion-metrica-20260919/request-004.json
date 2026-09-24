@@ -1,1 +1,0 @@
-{"name": "dax_query_operations", "arguments": {"request": {"operation": "Execute", "query": "EVALUATE 'M\u00e9trica'\n", "maxRows": 50000}}}

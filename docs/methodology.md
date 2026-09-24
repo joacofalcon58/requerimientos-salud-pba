@@ -1,22 +1,18 @@
-# Dashboard nativo en Power BI — "Requerimientos de establecimientos de Salud"
+# Metodología — Dashboard "Requerimientos de establecimientos de Salud"
 
-Construcción del informe nativo (3 páginas) que replica la lógica del dashboard HTML
-(artefacto Claude `abea55bf`) dentro del proyecto PBIP
-`Requerimientos de establecimientos de Salud.pbip`.
+Documenta cómo está construido el informe nativo de Power BI (3 páginas) y la vista
+HTML standalone que replica el mismo modelo de datos: las columnas calculadas y
+medidas DAX agregadas, las definiciones de cada KPI, y las decisiones de cálculo que
+mantienen ambos tableros reconciliados número por número.
 
-**Estado: COMPLETO, guardado y reconciliado con el artefacto HTML (18-sep-2026).**
-Construido el 8-sep-2026 (verificado abriendo una copia byte-idéntica en Power BI
-Desktop 2.157 antes de aplicar al proyecto real). El 17-sep-2026 se detectó y corrigió
-un bug de cálculo de camas (ver sección 3). El 18-sep-2026 se aplicó una auditoría de
-comparabilidad independiente (ver sección 5) que corrigió geografía, cohortes y
-alcance de universo en ambos tableros — siguen mostrando las mismas cifras. Más tarde
-ese mismo día se retiraron los 4 carteles de advertencia en pantalla y se reorganizaron
-las páginas (ver sección 6); sus notas quedan solo en `auditoria.md` y en este documento.
-El 19-sep-2026 el usuario reformateó colores/diseño en Power BI (portada nueva + paleta
-navy/rojo/celeste en los gráficos) y se trasladó al HTML (ver sección 7). Ese mismo día,
-al revisar el scatter de P2, se encontró que el eje del HTML recortaba 18-25 puntos que
-sí se ven en Power BI, y que el orden de barras de "Regiones sanitarias" no coincidía
-entre ambos tableros — corregido (ver sección 8).
+El dashboard está organizado en tres preguntas de negocio (P1 demanda, P2 capacidad,
+P3 desempeño relativo). Ambas vistas —el reporte nativo y el HTML— comparten el mismo
+modelo semántico como fuente única de verdad; los cambios de diseño y las
+correcciones de cálculo se aplican a los dos en paralelo. El historial detallado de
+esas correcciones (bug de cálculo de camas, auditoría de comparabilidad geográfica y
+de cohortes, ajustes de escala en el scatter de P2) queda documentado sección por
+sección más abajo, y las limitaciones de identidad y comparabilidad de los datos
+están en [`data-quality.md`](data-quality.md).
 
 Backups: `_backup_20260908_122719/` (Report + SemanticModel, previo a la construcción
 inicial).
@@ -189,7 +185,7 @@ Un `#N/D` aparece en los cortes por región/dependencia por filas con
 
 ## 5. Auditoría de comparabilidad (18-sep-2026)
 
-Un handoff externo (`auditoria.md` en la raíz del proyecto, con evidencia en
+Un handoff externo (`data-quality.md` en la raíz del proyecto, con evidencia en
 `docs/revision-20260918/`) revisó el informe con consultas DAX independientes y
 encontró 4 problemas reales de comparabilidad — no errores de cifras, sino de
 **qué se está comparando contra qué**. El usuario aprobó 4 correcciones concretas
@@ -212,7 +208,7 @@ consistentemente los mismos municipios en 2005 y en 2024.
 La tabla "Establecimientos con mayor crecimiento de demanda (2018→2024)" comparaba
 un período de 6 años cuando el resto de la página compara 2005-2024 (19 años) — y
 dependía de `establecimiento_id`, vacío antes de 2018 y con identidad inestable
-después (ver `auditoria.md` §1). Se reemplazó por una tabla de
+después (ver `data-quality.md` §1). Se reemplazó por una tabla de
 **participación municipal y regional en el crecimiento 2005-2024** (misma ventana
 que el resto de P1, geografía constante, medida nueva `% Participación en
 Crecimiento` = crecimiento del municipio / crecimiento total provincial). Top 5:
@@ -269,7 +265,7 @@ reemplazaron por las columnas `Estadia Media 22_24` / `Mortalidad 22_24` de
 ### 5.6 Lo que quedó pendiente (fuera del alcance aprobado)
 
 La auditoría propuso 7 prioridades; el usuario aprobó las 4 de arriba. Quedan sin
-aplicar (documentadas en `auditoria.md` para quien retome):
+aplicar (documentadas en `data-quality.md` para quien retome):
 
 - Validar contra la fuente original los 372 códigos de establecimiento con más de
   un nombre en 2022-2024 (identidad, no solo comparabilidad).
@@ -298,7 +294,7 @@ El usuario pidió sacar los 4 cuadros de advertencia (cartel con fondo de color 
 ícono de alerta) de ambos tableros — decisión de audiencia: un gerente/director que
 lee el dashboard no necesita ver en pantalla las salvedades de calidad de datos o
 casemix, solo los números ya corregidos. Las notas quedan **solo en la
-documentación** (`auditoria.md` y esta sección), no en el HTML ni en el PBI.
+documentación** (`data-quality.md` y esta sección), no en el HTML ni en el PBI.
 
 Cuadros eliminados (4):
 
@@ -478,7 +474,7 @@ tabla de abajo (`b9d187645049112683d3`) no tiene este problema porque lista fila
 individuales en vez de agrupar por nombre.
 
 **No se corrigió** — es exactamente la misma clase de problema que el punto 5 de
-`auditoria.md` ("372 códigos con más de un nombre"), que el usuario dejó fuera de
+`data-quality.md` ("372 códigos con más de un nombre"), que el usuario dejó fuera de
 alcance el 18-sep-2026. Se deja documentado acá como un caso concreto y verificado
 de esa limitación ya conocida, no como una tarea nueva. El umbral 2,7 quedó fijado
 usando el cálculo *tal como lo hace el propio gráfico* (agrupado/promediado), no
