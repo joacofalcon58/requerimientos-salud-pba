@@ -1,0 +1,579 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "b9d187645049112683d3",
+  "position": {
+    "x": 40,
+    "y": 738,
+    "z": 7000,
+    "height": 322,
+    "width": 1840,
+    "tabOrder": 6000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DIM_Establecimientos"
+                    }
+                  },
+                  "Property": "establecimiento_nombre"
+                }
+              },
+              "queryRef": "DIM_Establecimientos.establecimiento_nombre",
+              "nativeQueryRef": "Establecimiento",
+              "displayName": "Establecimiento"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DIM_Establecimientos"
+                    }
+                  },
+                  "Property": "Municipio"
+                }
+              },
+              "queryRef": "DIM_Establecimientos.Municipio",
+              "nativeQueryRef": "Municipio"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DIM_Establecimientos"
+                    }
+                  },
+                  "Property": "Dependencia"
+                }
+              },
+              "queryRef": "DIM_Establecimientos.Dependencia",
+              "nativeQueryRef": "Dependencia"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DIM_Establecimientos"
+                    }
+                  },
+                  "Property": "Estadia Media 22_24"
+                }
+              },
+              "queryRef": "DIM_Establecimientos.Estadia Media 22_24",
+              "nativeQueryRef": "Estadía Media",
+              "displayName": "Estadía Media",
+              "format": "#.# dias"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "GBA_Rendimientos"
+                    }
+                  },
+                  "Property": "Estadía relativa a banda (x)"
+                }
+              },
+              "queryRef": "GBA_Rendimientos.Estadía relativa a banda (x)",
+              "nativeQueryRef": "Estadia vs Referencia",
+              "displayName": "Estadia vs Referencia",
+              "format": "#.# x"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DIM_Establecimientos"
+                    }
+                  },
+                  "Property": "Mortalidad 22_24"
+                }
+              },
+              "queryRef": "DIM_Establecimientos.Mortalidad 22_24",
+              "nativeQueryRef": "Mortalidad",
+              "displayName": "Mortalidad"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "GBA_Rendimientos"
+                    }
+                  },
+                  "Property": "Mortalidad relativa a banda (x)"
+                }
+              },
+              "queryRef": "GBA_Rendimientos.Mortalidad relativa a banda (x)",
+              "nativeQueryRef": "Mortalidad vs Referencia",
+              "displayName": "Mortalidad vs Referencia",
+              "format": "#.# x"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "GBA_Rendimientos"
+                    }
+                  },
+                  "Property": "Total Egresos"
+                }
+              },
+              "queryRef": "GBA_Rendimientos.Total Egresos",
+              "nativeQueryRef": "Egresos",
+              "displayName": "Egresos"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "GBA_Rendimientos"
+                  }
+                },
+                "Property": "Mortalidad relativa a banda (x)"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "grid": [
+        {
+          "properties": {
+            "gridVertical": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "columnAdjustment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'growToFit'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "And": {
+                              "Left": {
+                                "Comparison": {
+                                  "ComparisonKind": 2,
+                                  "Left": {
+                                    "Measure": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "GBA_Rendimientos"
+                                        }
+                                      },
+                                      "Property": "Mortalidad relativa a banda (x)"
+                                    }
+                                  },
+                                  "Right": {
+                                    "Literal": {
+                                      "Value": "3D"
+                                    }
+                                  }
+                                }
+                              },
+                              "Right": {
+                                "Comparison": {
+                                  "ComparisonKind": 3,
+                                  "Left": {
+                                    "Measure": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "GBA_Rendimientos"
+                                        }
+                                      },
+                                      "Property": "Mortalidad relativa a banda (x)"
+                                    }
+                                  },
+                                  "Right": {
+                                    "Literal": {
+                                      "Value": "99999999999D"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#BE1717'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "GBA_Rendimientos.Mortalidad relativa a banda (x)"
+          }
+        },
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Conditional": {
+                      "Cases": [
+                        {
+                          "Condition": {
+                            "And": {
+                              "Left": {
+                                "Comparison": {
+                                  "ComparisonKind": 2,
+                                  "Left": {
+                                    "Measure": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "GBA_Rendimientos"
+                                        }
+                                      },
+                                      "Property": "Estadía relativa a banda (x)"
+                                    }
+                                  },
+                                  "Right": {
+                                    "Literal": {
+                                      "Value": "3D"
+                                    }
+                                  }
+                                }
+                              },
+                              "Right": {
+                                "Comparison": {
+                                  "ComparisonKind": 3,
+                                  "Left": {
+                                    "Measure": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Entity": "GBA_Rendimientos"
+                                        }
+                                      },
+                                      "Property": "Estadía relativa a banda (x)"
+                                    }
+                                  },
+                                  "Right": {
+                                    "Literal": {
+                                      "Value": "9999999D"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "Value": {
+                            "Literal": {
+                              "Value": "'#BE1717'"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ],
+            "metadata": "GBA_Rendimientos.Estadía relativa a banda (x)"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Establecimientos con peor desempeño relativo (90, ventana 2022-2024)'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'90 establecimientos superan 1,6x estadía o 2,0x mortalidad de su banda de referencia · misma cohorte en tarjeta, gráfico y tabla · top 15 de 90'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "16ad35c409f0581b6106",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_Establecimientos"
+              }
+            },
+            "Property": "Desempeno Internacion"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "e",
+              "Entity": "DIM_Establecimientos",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "e"
+                          }
+                        },
+                        "Property": "Desempeno Internacion"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'Peor desempeno'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "c5d836f4a611a9d3990a",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_Establecimientos"
+              }
+            },
+            "Property": "establecimiento_nombre"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "18135336e0b77662105c",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_Establecimientos"
+              }
+            },
+            "Property": "Municipio"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "6a99ebed3cc9e24ce4a0",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_Establecimientos"
+              }
+            },
+            "Property": "Dependencia"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "8d742ab04049512075b4",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_Establecimientos"
+              }
+            },
+            "Property": "Estadia Media 22_24"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "e32ecad6a6a0308c0d19",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GBA_Rendimientos"
+              }
+            },
+            "Property": "Estadía relativa a banda (x)"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "df1b7bbe932644c4c0e8",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_Establecimientos"
+              }
+            },
+            "Property": "Mortalidad 22_24"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "b3feb0ae11ab0896d06a",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GBA_Rendimientos"
+              }
+            },
+            "Property": "Mortalidad relativa a banda (x)"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "ddea540d6b0ce62c5081",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GBA_Rendimientos"
+              }
+            },
+            "Property": "Total Egresos"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

@@ -1,0 +1,269 @@
+table DIM_Establecimientos
+	lineageTag: 41dac462-ce63-47d0-a68f-ede55bfffdac
+
+	column establecimiento_id
+		dataType: string
+		lineageTag: 0238c737-e42d-45db-92dc-db13f92937b2
+		summarizeBy: none
+		sourceColumn: establecimiento_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column establecimiento_nombre
+		dataType: string
+		lineageTag: 336b0961-d509-446b-8102-90fd9216e822
+		summarizeBy: none
+		sourceColumn: establecimiento_nombre
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Dependencia (Municipal / Provincial / Nacional) informada por el establecimiento en 2024; si no reporto en 2024 se toma la ultima disponible.
+	column Dependencia =
+			VAR _d2024 =
+			    CALCULATE ( SELECTEDVALUE ( GBA_Rendimientos[dependencia] ), GBA_Rendimientos[anio] = 2024 )
+			VAR _dAll =
+			    CALCULATE ( SELECTEDVALUE ( GBA_Rendimientos[dependencia] ) )
+			RETURN
+			    COALESCE ( _d2024, _dAll, "Sin dato" )
+		dataType: string
+		lineageTag: 67cadd69-c6c2-4966-9295-5b3069e24e30
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Municipio informado por el establecimiento (2024, con reserva a la ultima disponible).
+	column Municipio =
+			VAR _m2024 =
+			    CALCULATE ( SELECTEDVALUE ( GBA_Rendimientos[municipio_nombre] ), GBA_Rendimientos[anio] = 2024 )
+			VAR _mAll =
+			    CALCULATE ( SELECTEDVALUE ( GBA_Rendimientos[municipio_nombre] ) )
+			RETURN
+			    COALESCE ( _m2024, _mAll, "Sin dato" )
+		dataType: string
+		lineageTag: 7912c201-e784-4b67-af7f-96b64e6d058d
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Egresos acumulados 2022-2024 (ventana de referencia para suavizar variaciones anuales).
+	column 'Egresos 22_24' =
+			CALCULATE (
+			    SUM ( GBA_Rendimientos[egresos] ),
+			    GBA_Rendimientos[anio] >= 2022 && GBA_Rendimientos[anio] <= 2024
+			)
+		dataType: double
+		formatString: #,##0
+		lineageTag: b596e95b-c081-4397-a2e7-dc3d0b0d31cf
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Egresos promedio anual en la ventana 2022-2024.
+	column 'Egresos Anual 22_24' = VAR _nAnios = CALCULATE(DISTINCTCOUNT(GBA_Rendimientos[anio]), GBA_Rendimientos[anio] >= 2022 && GBA_Rendimientos[anio] <= 2024, GBA_Rendimientos[egresos] > 0) RETURN DIVIDE(DIM_Establecimientos[Egresos 22_24], _nAnios)
+		dataType: double
+		formatString: #,##0
+		lineageTag: 2bf4a7a2-7a5e-4296-b7e8-b4564d53ba5b
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Promedio de dias de estadia 2022-2024 (dias de estadia / egresos, razon de sumas).
+	column 'Estadia Media 22_24' =
+			DIVIDE (
+			    CALCULATE (
+			        SUM ( GBA_Rendimientos[dias_estadia] ),
+			        GBA_Rendimientos[anio] >= 2022 && GBA_Rendimientos[anio] <= 2024
+			    ),
+			    DIM_Establecimientos[Egresos 22_24]
+			)
+		dataType: double
+		formatString: #,##0.0
+		lineageTag: f759924e-c82e-4dbc-b3fc-94f158ceba0d
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Tasa de mortalidad hospitalaria 2022-2024 (defunciones / egresos, razon de sumas).
+	column 'Mortalidad 22_24' =
+			DIVIDE (
+			    CALCULATE (
+			        SUM ( GBA_Rendimientos[defunciones] ),
+			        GBA_Rendimientos[anio] >= 2022 && GBA_Rendimientos[anio] <= 2024
+			    ),
+			    DIM_Establecimientos[Egresos 22_24]
+			)
+		dataType: double
+		formatString: 0.00%
+		lineageTag: cc45674e-66ca-4d19-9b81-e877c75a952a
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Camas disponibles promedio anual en la ventana 2022-2024.
+	column 'Camas 22_24' = VAR _sumCamas = CALCULATE(SUM(GBA_Rendimientos[promedio_camas_disponibles]), GBA_Rendimientos[anio] >= 2022 && GBA_Rendimientos[anio] <= 2024) VAR _nAnios = CALCULATE(DISTINCTCOUNT(GBA_Rendimientos[anio]), GBA_Rendimientos[anio] >= 2022 && GBA_Rendimientos[anio] <= 2024, GBA_Rendimientos[promedio_camas_disponibles] > 0) RETURN DIVIDE(_sumCamas, _nAnios)
+		dataType: double
+		formatString: #,##0
+		lineageTag: e4320b83-54eb-4135-91d6-5dcf1cae5609
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	/// % de ocupacion 2022-2024 (pacientes-dia / dias-cama disponible, razon de sumas).
+	column 'Ocupacion 22_24' =
+			CALCULATE (
+			    DIVIDE (
+			        SUM ( GBA_Rendimientos[pacientes_dias] ),
+			        SUM ( GBA_Rendimientos[dias_camas_disponible] )
+			    ),
+			    GBA_Rendimientos[anio] >= 2022 && GBA_Rendimientos[anio] <= 2024
+			)
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 2f7608ef-fd72-4c4f-9698-a379642c870e
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Giro de camas 2022-2024 (egresos / camas disponibles).
+	column 'Giro 22_24' =
+			CALCULATE (
+			    DIVIDE (
+			        SUM ( GBA_Rendimientos[egresos] ),
+			        SUM ( GBA_Rendimientos[promedio_camas_disponibles] )
+			    ),
+			    GBA_Rendimientos[anio] >= 2022 && GBA_Rendimientos[anio] <= 2024
+			)
+		dataType: double
+		formatString: #,##0.0
+		lineageTag: d330a0d3-37ac-47fe-a95c-ed4232f44d2b
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Segmento operativo: "Agudos" vs "Estadia prolongada" (estadia media > 30 dias) vs "Sin internacion".
+	column Segmento =
+			VAR _tieneInternacion =
+			    DIM_Establecimientos[Camas 22_24] > 0
+			        && DIM_Establecimientos[Egresos 22_24] > 0
+			RETURN
+			    SWITCH (
+			        TRUE (),
+			        NOT _tieneInternacion, "Sin internacion",
+			        DIM_Establecimientos[Estadia Media 22_24] > 30, "Estadia prolongada",
+			        "Agudos"
+			    )
+		dataType: string
+		lineageTag: e9c84d49-49bf-4af7-a656-7331556c1f5e
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Mediana de estadia media de la banda de referencia = establecimientos de agudos de la misma dependencia con >= 100 egresos/ano.
+	column 'Mediana LOS Dep' =
+			VAR _dep = DIM_Establecimientos[Dependencia]
+			RETURN
+			    MEDIANX (
+			        FILTER (
+			            ALL ( DIM_Establecimientos ),
+			            DIM_Establecimientos[Dependencia] = _dep
+			                && DIM_Establecimientos[Segmento] = "Agudos"
+			                && DIM_Establecimientos[Egresos Anual 22_24] >= 100
+			        ),
+			        DIM_Establecimientos[Estadia Media 22_24]
+			    )
+		dataType: double
+		formatString: #,##0.0
+		lineageTag: f2edee32-eec0-41da-8a6e-72e937a70aa4
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Mediana de tasa de mortalidad de la banda de referencia (agudos de la misma dependencia con >= 100 egresos/ano).
+	column 'Mediana Mort Dep' =
+			VAR _dep = DIM_Establecimientos[Dependencia]
+			RETURN
+			    MEDIANX (
+			        FILTER (
+			            ALL ( DIM_Establecimientos ),
+			            DIM_Establecimientos[Dependencia] = _dep
+			                && DIM_Establecimientos[Segmento] = "Agudos"
+			                && DIM_Establecimientos[Egresos Anual 22_24] >= 100
+			        ),
+			        DIM_Establecimientos[Mortalidad 22_24]
+			    )
+		dataType: double
+		formatString: 0.00%
+		lineageTag: 290b39d4-8fc2-4d64-af36-dd3365550f9f
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Multiplo de estadia media respecto a la mediana de su banda de referencia.
+	column 'LOS Ratio' = DIVIDE ( DIM_Establecimientos[Estadia Media 22_24], DIM_Establecimientos[Mediana LOS Dep] )
+		dataType: double
+		formatString: #,##0.0
+		lineageTag: 061060e3-94fb-44ff-b1c7-c1be1e318f6b
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Multiplo de tasa de mortalidad respecto a la mediana de su banda de referencia.
+	column 'Mort Ratio' = DIVIDE ( DIM_Establecimientos[Mortalidad 22_24], DIM_Establecimientos[Mediana Mort Dep] )
+		dataType: double
+		formatString: #,##0.0
+		lineageTag: 33ee59a0-bed6-4f77-8cd0-cef2f6190b8d
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Clasificacion de capacidad hospitalaria sobre la ventana 2022-2024 (solo aplica a establecimientos de agudos).
+	column 'Clasificacion Capacidad' =
+			SWITCH (
+			    TRUE (),
+			    DIM_Establecimientos[Segmento] <> "Agudos", "Excluido (no agudo)",
+			    DIM_Establecimientos[Ocupacion 22_24] > 1, "Anomalia de datos",
+			    DIM_Establecimientos[Ocupacion 22_24] >= 0.9, "Saturado",
+			    DIM_Establecimientos[Ocupacion 22_24] <= 0.4
+			        && DIM_Establecimientos[Egresos Anual 22_24] >= 50, "Subutilizado",
+			    "Normal"
+			)
+		dataType: string
+		lineageTag: d2dcf8e9-046d-4ba8-a796-16abf8af51a8
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Marca de peor desempeno relativo: >= 100 egresos/ano y (estadia >= 1,6x o mortalidad >= 2,0x su banda de referencia).
+	column 'Desempeno Internacion' =
+			IF (
+			    DIM_Establecimientos[Egresos Anual 22_24] >= 100
+			        && ( DIM_Establecimientos[LOS Ratio] >= 1.6
+			            || DIM_Establecimientos[Mort Ratio] >= 2 ),
+			    "Peor desempeno",
+			    "Dentro de banda"
+			)
+		dataType: string
+		lineageTag: 1ee33609-5ca7-47f1-95aa-7d1e5307a492
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DIM_Establecimientos = m
+		mode: import
+		source =
+				let
+				    Origen = GBA_Rendimientos,
+				    #"Columnas seleccionadas" = Table.SelectColumns(Origen, {"anio", "establecimiento_id", "establecimiento_nombre"}),
+				    #"Nulos quitados" = Table.SelectRows(#"Columnas seleccionadas", each [establecimiento_id] <> null and [establecimiento_id] <> ""),
+				    #"Filas ordenadas" = Table.Sort(#"Nulos quitados", {{"anio", Order.Descending}}),
+				    #"Duplicados quitados" = Table.Distinct(#"Filas ordenadas", {"establecimiento_id"}),
+				    #"Año quitado" = Table.RemoveColumns(#"Duplicados quitados", {"anio"}),
+				    #"Textos limpios" = Table.TransformColumns(#"Año quitado", {{"establecimiento_id", each Text.Trim(Text.From(_)), type text}, {"establecimiento_nombre", each if _ = null then null else Text.Trim(Text.Clean(Text.From(_))), type text}}),
+				    #"Filas ordenadas final" = Table.Sort(#"Textos limpios", {{"establecimiento_nombre", Order.Ascending}})
+				in
+				    #"Filas ordenadas final"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Exception
+

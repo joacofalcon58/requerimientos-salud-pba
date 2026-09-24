@@ -1,0 +1,1 @@
+EVALUATE SELECTCOLUMNS(FILTER(INFO.VIEW.MEASURES(),[Name] IN {"Total Egresos","Total Defunciones","Tasa de Mortalidad Hospitalaria %","Promedio Días de Estadía"}),"Nombre",[Name],"Expresion",[Expression],"Estado",[State])

@@ -1,0 +1,6085 @@
+cultureInfo es-AR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "GBA_rendimiento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "GBA rendimiento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "GBA_Rendimientos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.anio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "anio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "anio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Año": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.dependencia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "dependencia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "dependencia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.establecimiento_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "establecimiento_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "establecimiento id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "establecimiento_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "establecimiento identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "establecimiento identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "establecimiento identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "establecimiento credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.region_sanitarium": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "region_sanitaria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "region sanitarium": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "region_sanitaria": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "sanitarium": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "location sanitarium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.667
+			          }
+			        },
+			        {
+			          "province sanitarium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "area sanitarium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "district sanitarium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "section sanitarium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "zone sanitarium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "continent sanitarium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "region clinic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "region hospital": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "region infirmary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.municipio_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "municipio_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "municipio id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "municipio_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "municipio identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "municipio identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "municipio identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "municipio credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.municipio_nombre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "municipio_nombre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "municipio nombre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "municipio_nombre": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.establecimiento_nombre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "establecimiento_nombre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "establecimiento nombre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "establecimiento_nombre": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.consultas_odontologica": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "consultas_odontologicas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "consultas odontologica": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "consulta odontologica": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "consultas_odontologicas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.consultas_medica": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "consultas_medicas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "consultas medica": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "consulta medica": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "consultas_medicas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.consultas_paramedica": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "consultas_paramedicas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "consultas paramedica": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "consulta paramedica": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "consultas_paramedicas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.interconsulta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "interconsultas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "interconsulta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.egreso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "egresos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "egreso": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.dias_camas_disponible": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "dias_camas_disponible"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dias camas disponible": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dias_camas_disponible": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.promedio_camas_disponible": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "promedio_camas_disponibles"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "promedio camas disponible": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "promedio_camas_disponibles": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.pacientes_dias": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "pacientes_dias"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pacientes dias": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "paciente dias": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "pacientes_dias": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.dias_estadia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "dias_estadia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dias estadia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dias_estadia": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.defuncione": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "defunciones"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "defuncione": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Fecha"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "GBA_rendimiento.total_consultas_médicas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Total Consultas Médicas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total consultas médicas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate consulta médica": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall consulta médica": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.total_consultas_odontológicas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Total Consultas Odontológicas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total consultas odontológicas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate consulta odontológica": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall consulta odontológica": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.total_consultas_paramédicas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Total Consultas Paramédicas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total consultas paramédicas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate consulta paramédica": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall consulta paramédica": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.total_interconsultas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Total Interconsultas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total interconsultas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate interconsulta": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall interconsulta": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.demanda_total_de_atención": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Demanda Total de Atención"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "demanda total de atención": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "demanda aggregate de atención": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "demanda overall de atención": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.demanda_año_base_2005": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Demanda Año Base (2005)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "demanda año base (2005)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "demanda año base": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.demanda_año_actual_2024": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Demanda Año Actual (2024)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "demanda año actual (2024)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "demanda año actual": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.crecimiento_demanda_20052024_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Crecimiento Demanda 2005-2024 %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "crecimiento demanda 2005-2024 %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "crecimiento demanda 2005 2024 %": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "crecimiento demanda 2005 2024 percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "crecimiento demanda 2005 2024 pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.757
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.crecimiento_anual_compuesto_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Crecimiento anual compuesto %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "crecimiento anual compuesto %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "crecimiento anual compuesto percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "crecimiento anual compuesto pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.total_egresos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Total Egresos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total egresos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate egreso": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall egreso": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Egresos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.total_defunciones": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Total Defunciones"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total defunciones": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate defuncione": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall defuncione": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.promedio_días_de_estadía": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Promedio Días de Estadía"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "promedio días de estadía": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.tasa_de_mortalidad_hospitalaria_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Tasa de Mortalidad Hospitalaria %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tasa de mortalidad hospitalaria %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tasa de mortalidad hospitalaria percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "tasa de mortalidad hospitalaria pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.757
+			          }
+			        },
+			        {
+			          "Mortalidad %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.crecimiento_demanda_absoluto_20052024": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Crecimiento Demanda Absoluto 2005-2024"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "crecimiento demanda absoluto 2005-2024": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "crecimiento demanda absoluto 2005 2024": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.ocupación_agudos_2224": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "% Ocupación Agudos 22-24"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% ocupación agudos 22-24": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "% ocupación agudos 22 24": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "percentage ocupación agudo 22 24": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "pct ocupación agudo 22 24": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_tipo_prestacion.orden": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_TipoPrestacion",
+			          "ConceptualProperty": "orden"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "orden": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.hospitales_saturados": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Hospitales Saturados"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hospitales saturados": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_tipo_prestacion.tipo_prestacion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_TipoPrestacion",
+			          "ConceptualProperty": "tipo_prestacion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo prestacion": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tipo_prestacion": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_tipo_prestacion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_TipoPrestacion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "DIM tipo prestacion": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DIM_TipoPrestacion": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.camas_subutilizadas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Camas Subutilizadas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "camas subutilizadas": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.establecimientos_anomalía_ocupación": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Establecimientos Anomalía Ocupación"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "establecimientos anomalía ocupación": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.ocupación_prom_estab": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Ocupación Prom (estab)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ocupación prom (estab)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ocupación prom": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "Ocupación": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.giro_prom_estab": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Giro Prom (estab)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "giro prom (estab)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "giro prom": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "Giro Promedio": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.camas_2224_estab": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Camas 22-24 (estab)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "camas 22-24 (estab)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "camas 22-24": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "camas 22 24 (estab)": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Camas": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.tasa_de_mortalidad_hospitalaria_2024_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Tasa de Mortalidad Hospitalaria 2024 %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tasa de mortalidad hospitalaria 2024 %": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.promedio_días_de_estadía_2024": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Promedio Días de Estadía 2024"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "promedio días de estadía 2024": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.establecimientos_peor_desempeño": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Establecimientos Peor Desempeño"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "establecimientos peor desempeño": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.estadía_relativa_a_banda_x": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Estadía relativa a banda (x)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estadía relativa a banda (x)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "estadía relativa a banda": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "Estadia vs Referencia": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.mortalidad_relativa_a_banda_x": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Mortalidad relativa a banda (x)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mortalidad relativa a banda (x)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mortalidad relativa a banda": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "Mortalidad vs Referencia": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.total_defunciones_2024": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Total Defunciones 2024"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total defunciones 2024": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate defuncione 2024": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall defuncione 2024": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.color_crecimiento_demanda": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Color Crecimiento Demanda"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "color crecimiento demanda": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calendario": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "Fecha"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendario.anio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "Anio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "anio": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.mes_nro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "MesNro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mes nro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "me nro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "MesNro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.anio_me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "AnioMes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "anio me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AnioMes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.trimestre_nro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "TrimestreNro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre nro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TrimestreNro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.anio_trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "AnioTrimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "anio trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AnioTrimestre": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.dia_semana_nro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "DiaSemanaNro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia semana nro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DiaSemanaNro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.dia_semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "DiaSemana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia semana": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DiaSemana": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.decada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "Decada"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "decada": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Establecimientos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "DIM establecimiento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DIM_Establecimientos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento.establecimiento_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Establecimientos",
+			          "ConceptualProperty": "establecimiento_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "establecimiento id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "establecimiento_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "establecimiento identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "establecimiento identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "establecimiento identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "establecimiento credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento.establecimiento_nombre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Establecimientos",
+			          "ConceptualProperty": "establecimiento_nombre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "establecimiento nombre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "establecimiento_nombre": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Establecimiento": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento.dependencia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Establecimientos",
+			          "ConceptualProperty": "Dependencia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dependencia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento.municipio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Establecimientos",
+			          "ConceptualProperty": "Municipio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "municipio": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento.egresos_22_24": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Establecimientos",
+			          "ConceptualProperty": "Egresos 22_24"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "egresos 22_24": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "egreso 22_24": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Egresos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento.egresos_anual_22_24": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Establecimientos",
+			          "ConceptualProperty": "Egresos Anual 22_24"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "egresos anual 22_24": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "egreso anual 22_24": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento.estadia_media_22_24": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Establecimientos",
+			          "ConceptualProperty": "Estadia Media 22_24"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estadia media 22_24": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Estadía Media": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento.mortalidad_22_24": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Establecimientos",
+			          "ConceptualProperty": "Mortalidad 22_24"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mortalidad 22_24": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Mortalidad": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento.camas_22_24": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Establecimientos",
+			          "ConceptualProperty": "Camas 22_24"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "camas 22_24": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Camas": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento.ocupacion_22_24": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Establecimientos",
+			          "ConceptualProperty": "Ocupacion 22_24"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ocupacion 22_24": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Ocup.": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento.giro_22_24": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Establecimientos",
+			          "ConceptualProperty": "Giro 22_24"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "giro 22_24": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento.segmento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Establecimientos",
+			          "ConceptualProperty": "Segmento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "segmento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento.mediana_LOS_dep": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Establecimientos",
+			          "ConceptualProperty": "Mediana LOS Dep"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mediana LOS dep": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento.mediana_mort_dep": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Establecimientos",
+			          "ConceptualProperty": "Mediana Mort Dep"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mediana mort dep": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento.LOS_ratio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Establecimientos",
+			          "ConceptualProperty": "LOS Ratio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "LOS ratio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ratio": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "los relation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "los percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "los quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "los relationship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "relation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "relationship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "los proportion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "los share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "los fraction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento.mort_ratio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Establecimientos",
+			          "ConceptualProperty": "Mort Ratio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mort ratio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ratio": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "mort relation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "mort percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "mort quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "mort relationship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "relation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "relationship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "mort proportion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "mort share": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "mort fraction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento.clasificacion_capacidad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Establecimientos",
+			          "ConceptualProperty": "Clasificacion Capacidad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "clasificacion capacidad": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento.desempeno_internacion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Establecimientos",
+			          "ConceptualProperty": "Desempeno Internacion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "desempeno internacion": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_geografia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Geografia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "DIM geografia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DIM_Geografia": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_geografia.municipio_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Geografia",
+			          "ConceptualProperty": "municipio_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "municipio id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "municipio_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "municipio identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "municipio identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "municipio identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "municipio credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_geografia.municipio_nombre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Geografia",
+			          "ConceptualProperty": "municipio_nombre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "municipio nombre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "municipio_nombre": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Municipio": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_geografia.region_sanitarium": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Geografia",
+			          "ConceptualProperty": "region_sanitaria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "region sanitarium": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "region_sanitaria": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "sanitarium": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "location sanitarium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.667
+			          }
+			        },
+			        {
+			          "province sanitarium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "area sanitarium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "district sanitarium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "section sanitarium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "zone sanitarium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "continent sanitarium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "region clinic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "region hospital": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "region infirmary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "Región Sanitaria": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_geografia.latitud": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Geografia",
+			          "ConceptualProperty": "latitud"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "latitud": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_geografia.longitud": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Geografia",
+			          "ConceptualProperty": "longitud"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "longitud": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_dependencia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Dependencia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "DIM dependencia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DIM_Dependencia": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_dependencia.dependencia_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Dependencia",
+			          "ConceptualProperty": "dependencia_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dependencia id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dependencia_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dependencia identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dependencia identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dependencia identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dependencia credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "DIM_dependencia.dependencia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "DIM_Dependencia",
+			          "ConceptualProperty": "dependencia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dependencia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.participación_en_crecimiento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "% Participación en Crecimiento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% participación en crecimiento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage participación en crecimiento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "pct participación en crecimiento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.cantidad_por_tipo_2005": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Cantidad por Tipo (2005)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cantidad por tipo (2005)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cantidad por tipo": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "2005": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento.cantidad_por_tipo_2024": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "GBA_Rendimientos",
+			          "ConceptualProperty": "Cantidad por Tipo (2024)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cantidad por tipo (2024)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cantidad por tipo": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "2024": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "GBA_rendimiento_has_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_calendarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_GBA_rendimientos"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_DIM_geografia": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "DIM_geografia": {
+			          "Target": {
+			            "Entity": "DIM_geografia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "DIM_geografia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_DIM_geografias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_geografia"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_geografias_have_GBA_rendimientos"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_DIM_establecimiento": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "DIM_establecimiento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_DIM_establecimientos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_GBA_rendimientos"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_DIM_dependencia": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "DIM_dependencia": {
+			          "Target": {
+			            "Entity": "DIM_dependencia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "DIM_dependencia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_DIM_dependencias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_dependencia"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_dependencias_have_GBA_rendimientos"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_cantidad_por_tipo_2024": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.cantidad_por_tipo_2024": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.cantidad_por_tipo_2024"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.cantidad_por_tipo_2024"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_cantidad_por_tipo_2024"
+			        }
+			      ]
+			    },
+			    "DIM_tipo_prestacion_has_GBA_rendimiento_cantidad_por_tipo_2024": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_TipoPrestacion"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_tipo_prestacion": {
+			          "Target": {
+			            "Entity": "DIM_tipo_prestacion"
+			          }
+			        },
+			        "GBA_rendimiento.cantidad_por_tipo_2024": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.cantidad_por_tipo_2024"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_tipo_prestacion"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.cantidad_por_tipo_2024"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_tipo_prestacions_have_cantidad_por_tipo_2024"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_cantidad_por_tipo_2005": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.cantidad_por_tipo_2005": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.cantidad_por_tipo_2005"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.cantidad_por_tipo_2005"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_cantidad_por_tipo_2005"
+			        }
+			      ]
+			    },
+			    "DIM_tipo_prestacion_has_GBA_rendimiento_cantidad_por_tipo_2005": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_TipoPrestacion"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_tipo_prestacion": {
+			          "Target": {
+			            "Entity": "DIM_tipo_prestacion"
+			          }
+			        },
+			        "GBA_rendimiento.cantidad_por_tipo_2005": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.cantidad_por_tipo_2005"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_tipo_prestacion"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.cantidad_por_tipo_2005"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_tipo_prestacions_have_cantidad_por_tipo_2005"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_participación_en_crecimiento": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.participación_en_crecimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.participación_en_crecimiento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.participación_en_crecimiento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have__participación_en_crecimiento"
+			        }
+			      ]
+			    },
+			    "DIM_dependencia_has_dependencia": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Dependencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_dependencia": {
+			          "Target": {
+			            "Entity": "DIM_dependencia"
+			          }
+			        },
+			        "DIM_dependencia.dependencia": {
+			          "Target": {
+			            "Entity": "DIM_dependencia.dependencia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_dependencia"
+			            },
+			            "Object": {
+			              "Role": "DIM_dependencia.dependencia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_dependencias_have_dependencias"
+			        }
+			      ]
+			    },
+			    "DIM_dependencia_has_dependencia_id": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Dependencia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_dependencia": {
+			          "Target": {
+			            "Entity": "DIM_dependencia"
+			          }
+			        },
+			        "DIM_dependencia.dependencia_id": {
+			          "Target": {
+			            "Entity": "DIM_dependencia.dependencia_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_dependencia"
+			            },
+			            "Object": {
+			              "Role": "DIM_dependencia.dependencia_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_dependencias_have_dependencia_ids"
+			        }
+			      ]
+			    },
+			    "DIM_geografia_has_longitud": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Geografia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_geografia": {
+			          "Target": {
+			            "Entity": "DIM_geografia"
+			          }
+			        },
+			        "DIM_geografia.longitud": {
+			          "Target": {
+			            "Entity": "DIM_geografia.longitud"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_geografia"
+			            },
+			            "Object": {
+			              "Role": "DIM_geografia.longitud"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_geografias_have_longituds"
+			        }
+			      ]
+			    },
+			    "DIM_geografia_has_latitud": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Geografia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_geografia": {
+			          "Target": {
+			            "Entity": "DIM_geografia"
+			          }
+			        },
+			        "DIM_geografia.latitud": {
+			          "Target": {
+			            "Entity": "DIM_geografia.latitud"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_geografia"
+			            },
+			            "Object": {
+			              "Role": "DIM_geografia.latitud"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_geografias_have_latituds"
+			        }
+			      ]
+			    },
+			    "DIM_geografia_has_region_sanitarium": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Geografia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_geografia": {
+			          "Target": {
+			            "Entity": "DIM_geografia"
+			          }
+			        },
+			        "DIM_geografia.region_sanitarium": {
+			          "Target": {
+			            "Entity": "DIM_geografia.region_sanitarium"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_geografia"
+			            },
+			            "Object": {
+			              "Role": "DIM_geografia.region_sanitarium"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_geografias_have_region_sanitaria"
+			        }
+			      ]
+			    },
+			    "DIM_geografia_has_municipio_nombre": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Geografia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_geografia": {
+			          "Target": {
+			            "Entity": "DIM_geografia"
+			          }
+			        },
+			        "DIM_geografia.municipio_nombre": {
+			          "Target": {
+			            "Entity": "DIM_geografia.municipio_nombre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_geografia"
+			            },
+			            "Object": {
+			              "Role": "DIM_geografia.municipio_nombre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_geografias_have_municipio_nombres"
+			        }
+			      ]
+			    },
+			    "DIM_geografia_has_municipio_id": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Geografia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_geografia": {
+			          "Target": {
+			            "Entity": "DIM_geografia"
+			          }
+			        },
+			        "DIM_geografia.municipio_id": {
+			          "Target": {
+			            "Entity": "DIM_geografia.municipio_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_geografia"
+			            },
+			            "Object": {
+			              "Role": "DIM_geografia.municipio_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_geografias_have_municipio_ids"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_desempeno_internacion": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "DIM_establecimiento.desempeno_internacion": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento.desempeno_internacion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "DIM_establecimiento.desempeno_internacion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_desempeno_internacions"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_clasificacion_capacidad": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "DIM_establecimiento.clasificacion_capacidad": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento.clasificacion_capacidad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "DIM_establecimiento.clasificacion_capacidad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_clasificacion_capacidads"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_mort_ratio": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "DIM_establecimiento.mort_ratio": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento.mort_ratio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "DIM_establecimiento.mort_ratio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_mort_ratios"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_LOS_ratio": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "DIM_establecimiento.LOS_ratio": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento.LOS_ratio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "DIM_establecimiento.LOS_ratio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_LOS_ratios"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_mediana_mort_dep": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "DIM_establecimiento.mediana_mort_dep": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento.mediana_mort_dep"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "DIM_establecimiento.mediana_mort_dep"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_mediana_mort_deps"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_mediana_LOS_dep": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "DIM_establecimiento.mediana_LOS_dep": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento.mediana_LOS_dep"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "DIM_establecimiento.mediana_LOS_dep"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_mediana_LOS_deps"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_segmento": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "DIM_establecimiento.segmento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento.segmento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "DIM_establecimiento.segmento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_segmentos"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_giro_22_24": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "DIM_establecimiento.giro_22_24": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento.giro_22_24"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "DIM_establecimiento.giro_22_24"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_giro_22_24"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_ocupacion_22_24": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "DIM_establecimiento.ocupacion_22_24": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento.ocupacion_22_24"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "DIM_establecimiento.ocupacion_22_24"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_ocupacion_22_24"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_camas_22_24": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "DIM_establecimiento.camas_22_24": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento.camas_22_24"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "DIM_establecimiento.camas_22_24"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_camas_22_24"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_mortalidad_22_24": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "DIM_establecimiento.mortalidad_22_24": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento.mortalidad_22_24"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "DIM_establecimiento.mortalidad_22_24"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_mortalidad_22_24"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_estadia_media_22_24": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "DIM_establecimiento.estadia_media_22_24": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento.estadia_media_22_24"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "DIM_establecimiento.estadia_media_22_24"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_estadia_media_22_24"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_egresos_anual_22_24": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "DIM_establecimiento.egresos_anual_22_24": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento.egresos_anual_22_24"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "DIM_establecimiento.egresos_anual_22_24"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_egresos_anual_22_24"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_egresos_22_24": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "DIM_establecimiento.egresos_22_24": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento.egresos_22_24"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "DIM_establecimiento.egresos_22_24"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_egresos_22_24"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_municipio": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "DIM_establecimiento.municipio": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento.municipio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "DIM_establecimiento.municipio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_municipios"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_dependencia": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "DIM_establecimiento.dependencia": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento.dependencia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "DIM_establecimiento.dependencia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_dependencias"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_establecimiento_nombre": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "DIM_establecimiento.establecimiento_nombre": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento.establecimiento_nombre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "DIM_establecimiento.establecimiento_nombre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_establecimiento_nombres"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_establecimiento_id": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "DIM_establecimiento.establecimiento_id": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento.establecimiento_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "DIM_establecimiento.establecimiento_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_establecimiento_ids"
+			        }
+			      ]
+			    },
+			    "calendario_has_decada": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.decada": {
+			          "Target": {
+			            "Entity": "calendario.decada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.decada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_decadas"
+			        }
+			      ]
+			    },
+			    "calendario_has_dia_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.dia_semana": {
+			          "Target": {
+			            "Entity": "calendario.dia_semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.dia_semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_dia_semanas"
+			        }
+			      ]
+			    },
+			    "calendario_has_dia_semana_nro": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.dia_semana_nro": {
+			          "Target": {
+			            "Entity": "calendario.dia_semana_nro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.dia_semana_nro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_dia_semana_nros"
+			        }
+			      ]
+			    },
+			    "calendario_has_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.dia": {
+			          "Target": {
+			            "Entity": "calendario.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_dias"
+			        }
+			      ]
+			    },
+			    "calendario_has_anio_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.anio_trimestre": {
+			          "Target": {
+			            "Entity": "calendario.anio_trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.anio_trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_anio_trimestres"
+			        }
+			      ]
+			    },
+			    "calendario_has_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.trimestre": {
+			          "Target": {
+			            "Entity": "calendario.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_trimestres"
+			        }
+			      ]
+			    },
+			    "calendario_has_trimestre_nro": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.trimestre_nro": {
+			          "Target": {
+			            "Entity": "calendario.trimestre_nro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.trimestre_nro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_trimestre_nros"
+			        }
+			      ]
+			    },
+			    "calendario_has_anio_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.anio_me": {
+			          "Target": {
+			            "Entity": "calendario.anio_me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.anio_me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_anio_me"
+			        }
+			      ]
+			    },
+			    "calendario_has_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.me": {
+			          "Target": {
+			            "Entity": "calendario.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_me"
+			        }
+			      ]
+			    },
+			    "calendario_has_mes_nro": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.mes_nro": {
+			          "Target": {
+			            "Entity": "calendario.mes_nro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.mes_nro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_mes_nros"
+			        }
+			      ]
+			    },
+			    "calendario_has_anio": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.anio": {
+			          "Target": {
+			            "Entity": "calendario.anio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.anio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_anios"
+			        }
+			      ]
+			    },
+			    "calendario_has_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.fecha": {
+			          "Target": {
+			            "Entity": "calendario.fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_fechas"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_color_crecimiento_demanda": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.color_crecimiento_demanda": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.color_crecimiento_demanda"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.color_crecimiento_demanda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_color_crecimiento_demanda"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_total_defunciones_2024": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.total_defunciones_2024": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.total_defunciones_2024"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.total_defunciones_2024"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_total_defunciones_2024"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_GBA_rendimiento_mortalidad_relativa_a_banda_x": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "GBA_rendimiento.mortalidad_relativa_a_banda_x": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.mortalidad_relativa_a_banda_x"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.mortalidad_relativa_a_banda_x"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_mortalidad_relativa_a_banda_x"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_GBA_rendimiento_estadía_relativa_a_banda_x": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "GBA_rendimiento.estadía_relativa_a_banda_x": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.estadía_relativa_a_banda_x"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.estadía_relativa_a_banda_x"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_estadía_relativa_a_banda_x"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_GBA_rendimiento_establecimientos_peor_desempeño": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "GBA_rendimiento.establecimientos_peor_desempeño": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.establecimientos_peor_desempeño"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.establecimientos_peor_desempeño"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_establecimientos_peor_desempeño"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_promedio_días_de_estadía_2024": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.promedio_días_de_estadía_2024": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.promedio_días_de_estadía_2024"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.promedio_días_de_estadía_2024"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_promedio_días_de_estadía_2024"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_tasa_de_mortalidad_hospitalaria_2024_": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.tasa_de_mortalidad_hospitalaria_2024_": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.tasa_de_mortalidad_hospitalaria_2024_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.tasa_de_mortalidad_hospitalaria_2024_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_tasa_de_mortalidad_hospitalaria_2024_"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_GBA_rendimiento_camas_2224_estab": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "GBA_rendimiento.camas_2224_estab": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.camas_2224_estab"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.camas_2224_estab"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_camas_2224_estab"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_GBA_rendimiento_giro_prom_estab": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "GBA_rendimiento.giro_prom_estab": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.giro_prom_estab"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.giro_prom_estab"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_giro_prom_estab"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_GBA_rendimiento_ocupación_prom_estab": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "GBA_rendimiento.ocupación_prom_estab": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.ocupación_prom_estab"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.ocupación_prom_estab"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_ocupación_prom_estab"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_GBA_rendimiento_establecimientos_anomalía_ocupación": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "GBA_rendimiento.establecimientos_anomalía_ocupación": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.establecimientos_anomalía_ocupación"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.establecimientos_anomalía_ocupación"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_establecimientos_anomalía_ocupación"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_GBA_rendimiento_camas_subutilizadas": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "GBA_rendimiento.camas_subutilizadas": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.camas_subutilizadas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.camas_subutilizadas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_camas_subutilizadas"
+			        }
+			      ]
+			    },
+			    "DIM_tipo_prestacion_has_tipo_prestacion": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_TipoPrestacion"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_tipo_prestacion": {
+			          "Target": {
+			            "Entity": "DIM_tipo_prestacion"
+			          }
+			        },
+			        "DIM_tipo_prestacion.tipo_prestacion": {
+			          "Target": {
+			            "Entity": "DIM_tipo_prestacion.tipo_prestacion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_tipo_prestacion"
+			            },
+			            "Object": {
+			              "Role": "DIM_tipo_prestacion.tipo_prestacion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_tipo_prestacions_have_tipo_prestacions"
+			        }
+			      ]
+			    },
+			    "DIM_establecimiento_has_GBA_rendimiento_hospitales_saturados": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Establecimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_establecimiento": {
+			          "Target": {
+			            "Entity": "DIM_establecimiento"
+			          }
+			        },
+			        "GBA_rendimiento.hospitales_saturados": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.hospitales_saturados"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_establecimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.hospitales_saturados"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_establecimientos_have_hospitales_saturados"
+			        }
+			      ]
+			    },
+			    "DIM_tipo_prestacion_has_orden": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_TipoPrestacion"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_tipo_prestacion": {
+			          "Target": {
+			            "Entity": "DIM_tipo_prestacion"
+			          }
+			        },
+			        "DIM_tipo_prestacion.orden": {
+			          "Target": {
+			            "Entity": "DIM_tipo_prestacion.orden"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "DIM_tipo_prestacion"
+			            },
+			            "Object": {
+			              "Role": "DIM_tipo_prestacion.orden"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_tipo_prestacions_have_ordens"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_ocupación_agudos_2224": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.ocupación_agudos_2224": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.ocupación_agudos_2224"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.ocupación_agudos_2224"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have__ocupación_agudos_2224"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_crecimiento_demanda_absoluto_20052024": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.crecimiento_demanda_absoluto_20052024": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.crecimiento_demanda_absoluto_20052024"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.crecimiento_demanda_absoluto_20052024"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_crecimiento_demanda_absoluto_20052024"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_tasa_de_mortalidad_hospitalaria_": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.tasa_de_mortalidad_hospitalaria_": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.tasa_de_mortalidad_hospitalaria_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.tasa_de_mortalidad_hospitalaria_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_tasa_de_mortalidad_hospitalaria_"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_promedio_días_de_estadía": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.promedio_días_de_estadía": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.promedio_días_de_estadía"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.promedio_días_de_estadía"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_promedio_días_de_estadía"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_total_defunciones": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.total_defunciones": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.total_defunciones"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.total_defunciones"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_total_defunciones"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_total_egresos": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.total_egresos": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.total_egresos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.total_egresos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_total_egresos"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_crecimiento_anual_compuesto_": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.crecimiento_anual_compuesto_": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.crecimiento_anual_compuesto_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.crecimiento_anual_compuesto_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_crecimiento_anual_compuesto_"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_crecimiento_demanda_20052024_": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.crecimiento_demanda_20052024_": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.crecimiento_demanda_20052024_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.crecimiento_demanda_20052024_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_crecimiento_demanda_20052024_"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_demanda_año_actual_2024": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.demanda_año_actual_2024": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.demanda_año_actual_2024"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.demanda_año_actual_2024"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_demanda_año_actual_2024"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_demanda_año_base_2005": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.demanda_año_base_2005": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.demanda_año_base_2005"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.demanda_año_base_2005"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_demanda_año_base_2005"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_demanda_total_de_atención": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.demanda_total_de_atención": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.demanda_total_de_atención"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.demanda_total_de_atención"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_demanda_total_de_atención"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_total_interconsultas": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.total_interconsultas": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.total_interconsultas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.total_interconsultas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_total_interconsultas"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_total_consultas_paramédicas": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.total_consultas_paramédicas": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.total_consultas_paramédicas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.total_consultas_paramédicas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_total_consultas_paramédicas"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_total_consultas_odontológicas": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.total_consultas_odontológicas": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.total_consultas_odontológicas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.total_consultas_odontológicas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_total_consultas_odontológicas"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_total_consultas_médicas": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.total_consultas_médicas": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.total_consultas_médicas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.total_consultas_médicas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_total_consultas_médicas"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.fecha": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_fechas"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_defuncione": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.defuncione": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.defuncione"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.defuncione"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_defunciones"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_dias_estadia": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.dias_estadia": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.dias_estadia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.dias_estadia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_dias_estadias"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_pacientes_dias": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.pacientes_dias": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.pacientes_dias"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.pacientes_dias"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_pacientes_dias"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_promedio_camas_disponible": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.promedio_camas_disponible": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.promedio_camas_disponible"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.promedio_camas_disponible"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_promedio_camas_disponibles"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_dias_camas_disponible": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.dias_camas_disponible": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.dias_camas_disponible"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.dias_camas_disponible"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_dias_camas_disponibles"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_egreso": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.egreso": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.egreso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.egreso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_egresos"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_interconsulta": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.interconsulta": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.interconsulta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.interconsulta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_interconsultas"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_consultas_paramedica": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.consultas_paramedica": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.consultas_paramedica"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.consultas_paramedica"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_consultas_paramedicas"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_consultas_medica": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.consultas_medica": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.consultas_medica"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.consultas_medica"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_consultas_medicas"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_consultas_odontologica": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.consultas_odontologica": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.consultas_odontologica"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.consultas_odontologica"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_consultas_odontologicas"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_establecimiento_nombre": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.establecimiento_nombre": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.establecimiento_nombre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.establecimiento_nombre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_establecimiento_nombres"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_municipio_nombre": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.municipio_nombre": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.municipio_nombre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.municipio_nombre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_municipio_nombres"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_region_sanitarium": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.region_sanitarium": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.region_sanitarium"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.region_sanitarium"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_region_sanitaria"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_has_anio": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.anio": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.anio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Object": {
+			              "Role": "GBA_rendimiento.anio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_have_anios"
+			        }
+			      ]
+			    },
+			    "DIM_geografia_in_region_sanitarium": {
+			      "Binding": {
+			        "ConceptualEntity": "DIM_Geografia"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "DIM_geografia": {
+			          "Target": {
+			            "Entity": "DIM_geografia"
+			          }
+			        },
+			        "DIM_geografia.region_sanitarium": {
+			          "Target": {
+			            "Entity": "DIM_geografia.region_sanitarium"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "DIM_geografia.region_sanitarium"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "DIM_geografia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "DIM_geografia.region_sanitarium"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "DIM_geografias_are_in_region_sanitaria"
+			        }
+			      ]
+			    },
+			    "GBA_rendimiento_in_region_sanitarium": {
+			      "Binding": {
+			        "ConceptualEntity": "GBA_Rendimientos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "GBA_rendimiento": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento"
+			          }
+			        },
+			        "GBA_rendimiento.region_sanitarium": {
+			          "Target": {
+			            "Entity": "GBA_rendimiento.region_sanitarium"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "GBA_rendimiento.region_sanitarium"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "GBA_rendimiento"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "GBA_rendimiento.region_sanitarium"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "GBA_rendimientos_are_in_region_sanitaria"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

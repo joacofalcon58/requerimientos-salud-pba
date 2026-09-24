@@ -1,0 +1,379 @@
+{"success":true}
+GBA_Rendimientos[anio],GBA_Rendimientos[dependencia],GBA_Rendimientos[establecimiento_id],GBA_Rendimientos[region_sanitaria],GBA_Rendimientos[municipio_id],GBA_Rendimientos[municipio_nombre],GBA_Rendimientos[establecimiento_nombre],GBA_Rendimientos[consultas_odontologicas],GBA_Rendimientos[consultas_medicas],GBA_Rendimientos[consultas_paramedicas],GBA_Rendimientos[interconsultas],GBA_Rendimientos[egresos],GBA_Rendimientos[dias_camas_disponible],GBA_Rendimientos[promedio_camas_disponibles],GBA_Rendimientos[pacientes_dias],GBA_Rendimientos[porcentaje_ocupacion],GBA_Rendimientos[giro_de_camas],GBA_Rendimientos[dias_estadia],GBA_Rendimientos[promedio_dias_estadia],GBA_Rendimientos[defunciones],GBA_Rendimientos[tasa_mortalidad_hospitalaria],GBA_Rendimientos[columna_extra],GBA_Rendimientos[Fecha]
+2015,Municipal,,V,060882,Zárate,UPA 14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Villa Fox,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060882,Zárate,Centro Melillo Atucha,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Eduardo Brand,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Chacarita,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Houssay,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Capdepon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Almirante Brown,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060882,Zárate,Hogar del Niño Santa Teresa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios 25 de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios San Miguel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Villa Messoni,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Zárate,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Pro Tierra,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2007,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Villa Fox,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2007,Municipal,,V,060882,Zárate,Centro Melillo Atucha,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2007,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Houssay,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2007,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Capdepon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2007,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Almirante Brown,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2007,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Dr. A. Arreghi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2007,Municipal,,V,060882,Zárate,Hogar del Niño Santa Teresa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2007,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios 25 de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2007,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios San Miguel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2007,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Villa Messoni,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2007,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Zárate,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2007,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Pro Tierra,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2012,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Villa Fox,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060882,Zárate,Centro Melillo Atucha,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Eduardo Brand,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Houssay,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Capdepon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Almirante Brown,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060882,Zárate,Hogar del Niño Santa Teresa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios 25 de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios San Miguel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Villa Messoni,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Zárate,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Pro Tierra,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2017,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Villa Fox,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060882,Zárate,Centro Melillo Atucha,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Eduardo Brand,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Chacarita,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Houssay,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio San Jacinto,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Capdepon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Almirante Brown,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060882,Zárate,Hogar del Niño Santa Teresa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Mitre,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios 25 de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Villa Messoni,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Zárate,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Pro Tierra,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060882,Zárate,UPA 14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2009,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Villa Fox,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,V,060882,Zárate,Centro Melillo Atucha,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Eduardo Brand,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Houssay,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Capdepon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Almirante Brown,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,V,060882,Zárate,Hogar del Niño Santa Teresa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios 25 de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios San Miguel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Villa Messoni,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Zárate,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Pro Tierra,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2014,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Villa Fox,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060882,Zárate,Centro Melillo Atucha,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Eduardo Brand,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Houssay,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Capdepon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Almirante Brown,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060882,Zárate,Hogar del Niño Santa Teresa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios 25 de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios San Miguel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Villa Messoni,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Zárate,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Pro Tierra,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2016,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Villa Fox,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060882,Zárate,Centro Melillo Atucha,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Eduardo Brand,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Chacarita,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Houssay,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Capdepon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Almirante Brown,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060882,Zárate,Hogar del Niño Santa Teresa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios 25 de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios San Miguel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Villa Messoni,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Zárate,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Pro Tierra,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2010,Municipal,,V,060882,Zárate,Centro Melillo Atucha,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060882,Zárate,Hogar del Niño Santa Teresa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios 25 de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Almirante Brown,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Capdepon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Houssay,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Zárate,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Eduardo Brand,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Pro Tierra,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios San Miguel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Villa Fox,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Villa Messoni,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2013,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Villa Fox,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060882,Zárate,Centro Melillo Atucha,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Eduardo Brand,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Houssay,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Capdepon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Almirante Brown,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060882,Zárate,Hogar del Niño Santa Teresa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios 25 de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios San Miguel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Villa Messoni,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Barrio Zárate,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060882,Zárate,Sala de Primeros Auxilios Pro Tierra,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2015,Municipal,,V,060756,San Isidro,Centro Abierto Salud Asistencial,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060805,Tigre,Hospital Municipal de Diagnostico,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060861,Vicente López,Unidad de Atención Primaria Dr. Axenfeld,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060861,Vicente López,Unidad de Atención Primaria Dr. Angel Chávez,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2007,Municipal,,V,060371,General San Martín,Servicio de Emergencias Municipal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2007,Municipal,,V,060412,José C. Paz,Centro Asistencial Frino Sur,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2007,Municipal,,V,060515,Malvinas Argentinas,Centro Asistencial Unión Vecinal Villa de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2007,Municipal,,V,060515,Malvinas Argentinas,Unidad Funcional 8 de Octubre,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2007,Municipal,,V,060805,Tigre,Centro de Salud General Pacheco,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2007,Municipal,,V,060861,Vicente López,Unidad de Atención Primaria Dr. Angel Chávez,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2012,Municipal,,V,060126,Campana,C.A.P.S. Nº 13 Las Esperanza,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060126,Campana,C.A.P.S. Nº 19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060126,Campana,C.A.P.S. N° 23 Río Luján,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060252,Escobar,Centro Sanitario Móvil Dr. Horacio Dupuy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060252,Escobar,Laboratorio Municipal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060371,General San Martín,Servicio de Emergencias Municipal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060412,José C. Paz,Centro Asistencial Frino Sur,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060515,Malvinas Argentinas,Centro Asistencial Unión Vecinal Villa de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060515,Malvinas Argentinas,Unidad Funcional Móvil Nº 85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060515,Malvinas Argentinas,Hospital Pediátrico Concejal Mary Gervasoni,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060515,Malvinas Argentinas,Unidad Funcional 8 de Octubre,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060749,San Fernando,Instituto de Odontología y Ortodoncia Infantil,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060756,San Isidro,Centro Abierto Salud Asistencial,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060805,Tigre,Catamarán Sanitario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,V,060861,Vicente López,Unidad de Atención Primaria Dr. Angel Chávez,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2017,Municipal,,V,060126,Campana,C.A.P.S. Nº 13 Las Esperanza,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060126,Campana,C.A.P.S. Nº 19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060252,Escobar,Laboratorio Municipal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060371,General San Martín,Servicio de Emergencias Municipal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060515,Malvinas Argentinas,Centro Asistencial Unión Vecinal Villa de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060515,Malvinas Argentinas,Unidad Funcional Móvil Nº 85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060515,Malvinas Argentinas,Unidad Funcional Móvil Nº 86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060515,Malvinas Argentinas,Unidad Funcional 8 de Octubre,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060756,San Isidro,Centro Abierto Salud Asistencial,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060805,Tigre,Catamarán Sanitario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060805,Tigre,Hospital Comunal de Tigre,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060805,Tigre,Hospital Municipal de Diagnostico,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,V,060861,Vicente López,Unidad de Atención Primaria Dr. Angel Chávez,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2009,Municipal,,V,060126,Campana,C.A.P.S. Nº 13 Las Esperanza,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,V,060126,Campana,C.A.P.S. N° 23 Río Luján,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,V,060371,General San Martín,Servicio de Emergencias Municipal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,V,060412,José C. Paz,Centro Asistencial Frino Sur,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,V,060515,Malvinas Argentinas,Centro Asistencial Unión Vecinal Villa de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,V,060515,Malvinas Argentinas,Unidad Funcional Móvil Nº 85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,V,060515,Malvinas Argentinas,Unidad Funcional 8 de Octubre,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,V,060749,San Fernando,Unidad Sanitaria Barrio Mejoral,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,V,060749,San Fernando,Unidad Sanitaria San Ginés,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,V,060756,San Isidro,Centro Abierto Salud Asistencial,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,V,060861,Vicente López,Unidad de Atención Primaria Dr. Angel Chávez,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2014,Municipal,,V,060126,Campana,C.A.P.S. Nº 13 Las Esperanza,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060126,Campana,C.A.P.S. Nº 19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060126,Campana,C.A.P.S. N° 23 Río Luján,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060252,Escobar,Centro Sanitario Móvil Dr. Horacio Dupuy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060252,Escobar,Laboratorio Municipal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060371,General San Martín,Hospital Móvil,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060371,General San Martín,Servicio de Emergencias Municipal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060412,José C. Paz,Centro Asistencial Frino Sur,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060515,Malvinas Argentinas,Centro Asistencial Unión Vecinal Villa de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060515,Malvinas Argentinas,Hospital Materno Infantil M. A. de Menem,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060515,Malvinas Argentinas,Unidad Funcional Móvil Nº 85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060515,Malvinas Argentinas,Hospital Pediátrico Concejal Mary Gervasoni,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060515,Malvinas Argentinas,Unidad Funcional 8 de Octubre,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060515,Malvinas Argentinas,CAPS Venerable Madre Camila Rolon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060756,San Isidro,Centro Abierto Salud Asistencial,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2008,Municipal,,V,060126,Campana,C.A.P.S. Nº 13 Las Esperanza,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2008 00:00:00
+2016,Municipal,,V,060126,Campana,C.A.P.S. Nº 13 Las Esperanza,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060126,Campana,C.A.P.S. Nº 19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060126,Campana,C.A.P.S. N° 23 Río Luján,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060252,Escobar,Laboratorio Municipal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060371,General San Martín,Servicio de Emergencias Municipal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060412,José C. Paz,Centro Asistencial Frino Sur,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060515,Malvinas Argentinas,Centro Asistencial Unión Vecinal Villa de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060515,Malvinas Argentinas,Unidad Funcional Móvil Nº 85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060515,Malvinas Argentinas,Unidad Funcional Móvil Nº 86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060515,Malvinas Argentinas,Unidad Funcional 8 de Octubre,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060756,San Isidro,Centro Abierto Salud Asistencial,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2014,Municipal,,V,060805,Tigre,Catamarán Sanitario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060861,Vicente López,Unidad de Atención Primaria Dr. Axenfeld,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,V,060861,Vicente López,Unidad de Atención Primaria Dr. Angel Chávez,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2011,Municipal,,V,060126,Campana,C.A.P.S. Nº 13 Las Esperanza,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,V,060126,Campana,C.A.P.S. Nº 19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,V,060126,Campana,C.A.P.S. N° 23 Río Luján,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,V,060252,Escobar,Centro Sanitario Móvil Dr. Horacio Dupuy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,V,060252,Escobar,Laboratorio Municipal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,V,060252,Escobar,Centro de Día Dr. René Favaloro,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,V,060371,General San Martín,Servicio de Emergencias Municipal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,V,060412,José C. Paz,Centro Asistencial Frino Sur,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,V,060756,San Isidro,Centro Abierto Salud Asistencial,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,V,060805,Tigre,Catamarán Sanitario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2016,Municipal,,V,060805,Tigre,Hospital Municipal de Diagnostico,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,V,060861,Vicente López,Unidad de Atención Primaria Dr. Angel Chávez,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2015,Municipal,,V,060126,Campana,C.A.P.S. Nº 13 Las Esperanza,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060126,Campana,C.A.P.S. Nº 19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2010,Municipal,,V,060126,Campana,C.A.P.S. N° 23 Río Luján,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060126,Campana,C.A.P.S. Nº 13 Las Esperanza,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060126,Campana,C.A.P.S. Nº 19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060252,Escobar,Centro Sanitario Móvil Dr. Horacio Dupuy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060252,Escobar,Laboratorio Municipal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060371,General San Martín,Servicio de Emergencias Municipal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060412,José C. Paz,Centro Asistencial Frino Sur,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060515,Malvinas Argentinas,Centro Asistencial Unión Vecinal Villa de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060515,Malvinas Argentinas,Unidad Funcional 8 de Octubre,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060515,Malvinas Argentinas,Unidad Funcional Móvil Nº 85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060756,San Isidro,Centro Abierto Salud Asistencial,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060805,Tigre,Catamarán Sanitario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2010,Municipal,,V,060861,Vicente López,Unidad de Atención Primaria Dr. Angel Chávez,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2010 00:00:00
+2015,Municipal,,V,060126,Campana,C.A.P.S. N° 23 Río Luján,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060252,Escobar,Centro Sanitario Móvil Dr. Horacio Dupuy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060252,Escobar,Laboratorio Municipal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060371,General San Martín,Servicio de Emergencias Municipal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060412,José C. Paz,Centro Asistencial Frino Sur,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060515,Malvinas Argentinas,Centro Asistencial Unión Vecinal Villa de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060515,Malvinas Argentinas,Unidad Funcional Móvil Nº 85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,V,060515,Malvinas Argentinas,Unidad Funcional 8 de Octubre,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2007,Municipal,,V,060126,Campana,CAPS N° 22 Río Luján,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2007,Municipal,,V,060252,Escobar,C.A.P.S. A. Peñalba,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2013,Municipal,,V,060126,Campana,C.A.P.S. Nº 13 Las Esperanza,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060126,Campana,C.A.P.S. N° 23 Río Luján,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060252,Escobar,Centro Sanitario Móvil Dr. Horacio Dupuy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060252,Escobar,Laboratorio Municipal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060371,General San Martín,Hospital Móvil,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060371,General San Martín,Servicio de Emergencias Municipal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060515,Malvinas Argentinas,Centro Asistencial Unión Vecinal Villa de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060515,Malvinas Argentinas,Hospital Materno Infantil M. A. de Menem,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060515,Malvinas Argentinas,Unidad Funcional Móvil Nº 85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060515,Malvinas Argentinas,Hospital Pediátrico Concejal Mary Gervasoni,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060515,Malvinas Argentinas,Unidad Funcional 8 de Octubre,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060756,San Isidro,Centro Abierto Salud Asistencial,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060805,Tigre,Catamarán Sanitario,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060861,Vicente López,Unidad de Atención Primaria Dr. Axenfeld,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2013,Municipal,,V,060861,Vicente López,Unidad de Atención Primaria Dr. Angel Chávez,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2013 00:00:00
+2015,Municipal,,VI,060028,Almirante Brown,División Medicina Preventiva,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,VI,060270,Ezeiza,Maternidad Ctral. de Ezeiza Dr. M. Rebagliatti Base XXII,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,VI,060270,Ezeiza,Base XXX Sanidad Aeroportuaria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,VI,060270,Ezeiza,Base XXIV C.A.P.S. La Cunita,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,VI,060270,Ezeiza,Base XiX C.A.P.S.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,VI,060270,Ezeiza,Base XX C.A.P.S.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,VI,060274,Florencio Varela,Centro de Integración Comunitaria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,VI,060434,Lanús,Centro de Salud Nº 29 1° de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,VI,060434,Lanús,Unidad Sanitaria Nº 6 Va. Mauricio,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,VI,060434,Lanús,Centro Odontológico Escuela Nº 9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,VI,060434,Lanús,Unidad Sanitaria N° 28 La Esperanza,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,VI,060434,Lanús,Centro de Salud General Don José de San Martín,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,VI,060434,Lanús,Centro de Salud 25 de Enero,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,VI,060434,Lanús,Operativo Sanitaria Los Barrios Unidad Móvil I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,VI,060490,Lomas de Zamora,Unidad Sanitaria Cons. Odont. Escuela Nº 67,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,VI,060490,Lomas de Zamora,Laboratorio Central,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,VI,060490,Lomas de Zamora,Unidad Sanitaria Posta Cementerio,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,VI,060658,Quilmes,Posta Sanitaria I. Iriarte,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2015,Municipal,,VI,060658,Quilmes,Posta Sanitaria Va. Luján,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2015 00:00:00
+2007,Municipal,,VI,060091,Berazategui,Centro de Emergencias Médicas,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2007,Municipal,,VI,060434,Lanús,Centro de Salud Nº 29 1° de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2007,Municipal,,VI,060434,Lanús,Centro de Salud General Don José de San Martín,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2007,Municipal,,VI,060434,Lanús,Centro de Salud 25 de Enero,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2007,Municipal,,VI,060490,Lomas de Zamora,Laboratorio Central,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2007 00:00:00
+2012,Municipal,,VI,060028,Almirante Brown,División Medicina Preventiva,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,VI,060270,Ezeiza,Maternidad Ctral. de Ezeiza Dr. M. Rebagliatti Base XXII,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,VI,060270,Ezeiza,Base XXX Sanidad Aeroportuaria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,VI,060270,Ezeiza,Base XXIV C.A.P.S. La Cunita,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,VI,060270,Ezeiza,Base XiX C.A.P.S.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,VI,060270,Ezeiza,Base XX C.A.P.S.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,VI,060274,Florencio Varela,Centro de Integración Comunitaria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,VI,060434,Lanús,Centro de Salud Nº 29 1° de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,VI,060434,Lanús,Centro Odontológico Escuela Nº 9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,VI,060434,Lanús,Unidad Sanitaria N° 28 La Esperanza,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,VI,060434,Lanús,Centro de Salud General Don José de San Martín,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,VI,060434,Lanús,Centro de Salud 25 de Enero,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,VI,060434,Lanús,Operativo Sanitaria Los Barrios Unidad Móvil I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,VI,060490,Lomas de Zamora,Unidad Sanitaria Cons. Odont. Escuela Nº 67,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,VI,060490,Lomas de Zamora,Laboratorio Central,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,VI,060490,Lomas de Zamora,Unidad Sanitaria Posta Cementerio,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,VI,060658,Quilmes,Posta Sanitaria I. Iriarte,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2012,Municipal,,VI,060658,Quilmes,Posta Sanitaria Va. Luján,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2012 00:00:00
+2017,Municipal,,VI,060028,Almirante Brown,División Medicina Preventiva,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,VI,060270,Ezeiza,Maternidad Ctral. de Ezeiza Dr. M. Rebagliatti Base XXII,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,VI,060270,Ezeiza,Base XXX Sanidad Aeroportuaria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,VI,060270,Ezeiza,Base XXIV C.A.P.S. La Cunita,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,VI,060270,Ezeiza,Base XiX C.A.P.S.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,VI,060270,Ezeiza,Base XX C.A.P.S.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,VI,060274,Florencio Varela,Centro de Integración Comunitaria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,VI,060434,Lanús,Centro de Salud Nº 29 1° de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,VI,060434,Lanús,Unidad Sanitaria Nº 6 Va. Mauricio,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,VI,060434,Lanús,Centro Odontológico Escuela Nº 9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,VI,060434,Lanús,Centro de Discapacitados Palacio Municipal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,VI,060434,Lanús,Centro de Salud General Don José de San Martín,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,VI,060434,Lanús,Centro de Salud 25 de Enero,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2009,Municipal,,VI,060028,Almirante Brown,División Medicina Preventiva,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,VI,060270,Ezeiza,Base XXX Sanidad Aeroportuaria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,VI,060270,Ezeiza,Base XXIV C.A.P.S. La Cunita,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,VI,060270,Ezeiza,Base XiX C.A.P.S.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,VI,060270,Ezeiza,Base XX C.A.P.S.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,VI,060274,Florencio Varela,Centro de Integración Comunitaria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,VI,060434,Lanús,Centro de Salud Nº 29 1° de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,VI,060434,Lanús,Centro de Salud General Don José de San Martín,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,VI,060434,Lanús,Centro de Salud 25 de Enero,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,VI,060490,Lomas de Zamora,Unidad Sanitaria Cons. Odont. Escuela Nº 67,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2017,Municipal,,VI,060490,Lomas de Zamora,Laboratorio Central,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,VI,060490,Lomas de Zamora,Unidad Sanitaria Posta Cementerio,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,VI,060658,Quilmes,Posta Sanitaria I. Iriarte,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,VI,060658,Quilmes,Posta Sanitaria Va. Luján,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,VI,060658,Quilmes,Centro Integrador Comunitario - CIC - La Paz,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,VI,060658,Quilmes,Centro Integrador Comunitario - CIC - La Matera,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2017,Municipal,,VI,060658,Quilmes,Centro de Rehabilitación Dr. Julio Méndez,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2017 00:00:00
+2014,Municipal,,VI,060028,Almirante Brown,División Medicina Preventiva,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,VI,060091,Berazategui,UPA 10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,VI,060270,Ezeiza,Maternidad Ctral. de Ezeiza Dr. M. Rebagliatti Base XXII,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,VI,060270,Ezeiza,Base XXX Sanidad Aeroportuaria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,VI,060270,Ezeiza,Base XXIV C.A.P.S. La Cunita,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,VI,060270,Ezeiza,Base XiX C.A.P.S.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,VI,060270,Ezeiza,Base XX C.A.P.S.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,VI,060274,Florencio Varela,Centro de Integración Comunitaria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,VI,060274,Florencio Varela,UPA 11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,VI,060434,Lanús,Centro de Salud Nº 29 1° de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,VI,060434,Lanús,Unidad Sanitaria Nº 6 Va. Mauricio,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,VI,060434,Lanús,Centro Odontológico Escuela Nº 9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,VI,060434,Lanús,Unidad Sanitaria N° 28 La Esperanza,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,VI,060434,Lanús,Centro de Salud General Don José de San Martín,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,VI,060434,Lanús,Centro de Salud 25 de Enero,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,VI,060434,Lanús,Operativo Sanitaria Los Barrios Unidad Móvil I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,VI,060490,Lomas de Zamora,Unidad Sanitaria Cons. Odont. Escuela Nº 67,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,VI,060490,Lomas de Zamora,Laboratorio Central,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,VI,060490,Lomas de Zamora,Unidad Sanitaria Posta Cementerio,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,VI,060658,Quilmes,Posta Sanitaria I. Iriarte,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2014,Municipal,,VI,060658,Quilmes,Posta Sanitaria Va. Luján,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2014 00:00:00
+2011,Municipal,,VI,060028,Almirante Brown,División Medicina Preventiva,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,VI,060028,Almirante Brown,PostaPlaza los Aviadores,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,VI,060270,Ezeiza,Base XXX Sanidad Aeroportuaria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,VI,060270,Ezeiza,Base XXIV C.A.P.S. La Cunita,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,VI,060270,Ezeiza,Base XiX C.A.P.S.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,VI,060270,Ezeiza,Base XX C.A.P.S.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,VI,060274,Florencio Varela,Centro de Integración Comunitaria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,VI,060434,Lanús,Centro de Salud Nº 29 1° de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,VI,060434,Lanús,Centro de Salud General Don José de San Martín,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,VI,060434,Lanús,Centro de Salud 25 de Enero,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,VI,060434,Lanús,Operativo Sanitaria Los Barrios Unidad Móvil I,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,VI,060490,Lomas de Zamora,Unidad Sanitaria Cons. Odont. Escuela Nº 67,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,VI,060490,Lomas de Zamora,Laboratorio Central,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,VI,060490,Lomas de Zamora,Unidad Sanitaria Posta Cementerio,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,VI,060658,Quilmes,Posta Sanitaria I. Iriarte,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2011,Municipal,,VI,060658,Quilmes,Posta Sanitaria Va. Luján,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2011 00:00:00
+2009,Municipal,,VI,060490,Lomas de Zamora,Laboratorio Central,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,VI,060490,Lomas de Zamora,Unidad Sanitaria Posta Cementerio,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,VI,060658,Quilmes,Posta Sanitaria I. Iriarte,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2009,Municipal,,VI,060658,Quilmes,Posta Sanitaria Va. Luján,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2009 00:00:00
+2008,Municipal,,VI,060028,Almirante Brown,División Medicina Preventiva,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2008 00:00:00
+2008,Municipal,,VI,060091,Berazategui,Centro de Emergencias Médicas,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2008 00:00:00
+2008,Municipal,,VI,060270,Ezeiza,Base XXX Sanidad Aeroportuaria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2008 00:00:00
+2008,Municipal,,VI,060270,Ezeiza,Base XXIV C.A.P.S. La Cunita,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2008 00:00:00
+2008,Municipal,,VI,060270,Ezeiza,Base XiX C.A.P.S.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2008 00:00:00
+2008,Municipal,,VI,060270,Ezeiza,Base XX C.A.P.S.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2008 00:00:00
+2008,Municipal,,VI,060274,Florencio Varela,Centro de Integración Comunitaria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2008 00:00:00
+2008,Municipal,,VI,060434,Lanús,Centro de Salud Nº 29 1° de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2008 00:00:00
+2016,Municipal,,VI,060028,Almirante Brown,División Medicina Preventiva,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,VI,060270,Ezeiza,Maternidad Ctral. de Ezeiza Dr. M. Rebagliatti Base XXII,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,VI,060270,Ezeiza,Base XXX Sanidad Aeroportuaria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,VI,060270,Ezeiza,Base XXIV C.A.P.S. La Cunita,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,VI,060270,Ezeiza,Base XiX C.A.P.S.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,VI,060270,Ezeiza,Base XX C.A.P.S.,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,VI,060274,Florencio Varela,Equipo Móvil,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,VI,060274,Florencio Varela,Centro de Integración Comunitaria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,VI,060434,Lanús,Centro de Salud Nº 29 1° de Mayo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,VI,060434,Lanús,Unidad Sanitaria Nº 6 Va. Mauricio,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1/1/2016 00:00:00
+2016,Municipal,,VI,060434,Lanús,Centro Odontológico Escuela Nº 9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

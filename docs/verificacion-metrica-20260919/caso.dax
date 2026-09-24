@@ -1,0 +1,11 @@
+EVALUATE
+SUMMARIZECOLUMNS(
+ GBA_Rendimientos[anio],
+ TREATAS({"51501436"},DIM_Establecimientos[establecimiento_id]),
+ "Egresos",[Total Egresos],
+ "Defunciones",[Total Defunciones],
+ "DiasEstadia",SUM(GBA_Rendimientos[dias_estadia]),
+ "Mortalidad",[Tasa de Mortalidad Hospitalaria %],
+ "Estadia",[Promedio Días de Estadía]
+)
+ORDER BY GBA_Rendimientos[anio]

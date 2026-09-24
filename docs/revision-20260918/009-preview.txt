@@ -1,0 +1,256 @@
+{"success":true}
+DIM_Establecimientos[establecimiento_id],DIM_Establecimientos[establecimiento_nombre],DIM_Establecimientos[Dependencia],DIM_Establecimientos[Municipio],DIM_Establecimientos[Egresos 22_24],DIM_Establecimientos[Egresos Anual 22_24],DIM_Establecimientos[Estadia Media 22_24],DIM_Establecimientos[Mortalidad 22_24],DIM_Establecimientos[Camas 22_24],DIM_Establecimientos[Ocupacion 22_24],DIM_Establecimientos[Giro 22_24],DIM_Establecimientos[Segmento],DIM_Establecimientos[Mediana LOS Dep],DIM_Establecimientos[Mediana Mort Dep],DIM_Establecimientos[LOS Ratio],DIM_Establecimientos[Mort Ratio],DIM_Establecimientos[Clasificacion Capacidad],DIM_Establecimientos[Desempeno Internacion]
+80500118,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Provincial,Tigre,15508,"5169,333333333333","8,12599948413722","0,055003868970853756",71,"1,5695136797590825","72,8075117370892",Agudos,"5,54963563866355","0,04447215295095595","1,464240179575844","1,2368159695689172",Anomalia de datos,Dentro de banda
+82600039,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Trenque Lauquen,1480,"493,3333333333333","20,080405405405404","0,0445945945945946",42,"0,4879977407512002","11,746031746031745",Agudos,"3,107649896623019","0,025671042729325196","6,4616047731844315","1,737155559468263",Normal,Peor desempeno
+80500479,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+82600250,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Trenque Lauquen,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+82600268,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Trenque Lauquen,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+82600370,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Trenque Lauquen,18,6,"494,55555555555554","0,2222222222222222",13,"0,6601628298708591","0,46153846153846156",Estadia prolongada,"3,107649896623019","0,025671042729325196","159,14133573829307","8,656532754252623",Excluido (no agudo),Dentro de banda
+83300047,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tres Arroyos,1530,510,"7,920915032679739","0,01437908496732026",16,"0,7433850364963503","31,875",Agudos,"3,107649896623019","0,025671042729325196","2,548844077090903","0,5601285899810521",Normal,Peor desempeno
+83300063,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tres Arroyos,21764,"7254,666666666667","4,788090424554309","0,03850395147950744",135,"0,8055771453288366","53,73827160493827",Agudos,"3,107649896623019","0,025671042729325196","1,5407431930338646","1,4998982271772947",Normal,Dentro de banda
+83300128,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tres Arroyos,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+83300195,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tres Arroyos,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+82600241,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Trenque Lauquen,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+83300209,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tres Arroyos,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+83300233,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tres Arroyos,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+83300349,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tres Arroyos,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+83300331,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tres Arroyos,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+83300306,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tres Arroyos,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+83300284,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tres Arroyos,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+83300276,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tres Arroyos,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+83300268,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tres Arroyos,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+83300225,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tres Arroyos,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+82600233,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Trenque Lauquen,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+82600226,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Trenque Lauquen,34,"11,333333333333334","278,8235294117647",0,16,"0,8736313868613139","0,7083333333333334",Estadia prolongada,"3,107649896623019","0,025671042729325196","89,72166707541705",0,Excluido (no agudo),Dentro de banda
+82600217,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Trenque Lauquen,146,"48,666666666666664","541,582191780822","0,0958904109589041",64,"0,9010464187956204","0,7604166666666666",Estadia prolongada,"3,107649896623019","0,025671042729325196","174,27387569279975","3,7353531747802413",Excluido (no agudo),Dentro de banda
+80500461,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+82600012,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Trenque Lauquen,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+80500321,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+80500452,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+80500410,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+80500401,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+80500380,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+80500339,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+80500274,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+80500266,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+80500215,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+82600021,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Trenque Lauquen,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+82600055,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Trenque Lauquen,26143,"8714,333333333334","2,497303293424626","0,025590024098228973",97,"0,6908901349713996","89,83848797250859",Agudos,"3,107649896623019","0,025671042729325196","0,8035986602410919","0,9968439680479487",Normal,Dentro de banda
+82600080,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Trenque Lauquen,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+82600128,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Trenque Lauquen,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+82600136,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Trenque Lauquen,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+82600209,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Trenque Lauquen,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+80500924,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+80500347,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+80501025,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+83300250,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tres Arroyos,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+83300012,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tres Arroyos,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+81900101,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tornquist,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+81900021,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tornquist,5696,"1898,6666666666667","1,7965238764044944","0,005091292134831461",11,"0,994442601194426","172,6060606060606",Agudos,"3,107649896623019","0,025671042729325196","0,5780972555359978","0,1983282170698679",Saturado,Dentro de banda
+81900098,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tornquist,16,8,"1180,125","0,75",25,"1,0063970588235294","0,21333333333333335",Estadia prolongada,"3,107649896623019","0,025671042729325196","379,7483755433336","29,215798045602604",Excluido (no agudo),Dentro de banda
+81900080,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tornquist,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+81900071,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tornquist,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+81900055,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tornquist,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+83300021,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tres Arroyos,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+81900047,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tornquist,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+81900012,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tornquist,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+81900006,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tornquist,1,1,26,1,5,"1,183695652173913","0,2",Agudos,"3,107649896623019","0,025671042729325196","8,36645081167391","38,954397394136805",Anomalia de datos,Dentro de banda
+80500983,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+81200011,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tordillo,769,"256,3333333333333","7,145643693107933","0,01950585175552666",15,"0,22347931873479318","17,08888888888889",Agudos,"3,107649896623019","0,025671042729325196","2,2993721721590545","0,7598387007959065",Subutilizado,Peor desempeno
+81200037,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tordillo,4,2,"125,75","0,5","11,666666666666666","0,6731363384298503","0,11428571428571428",Estadia prolongada,"3,107649896623019","0,025671042729325196","40,46466113723055","19,477198697068403",Excluido (no agudo),Dentro de banda
+84000012,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tres de Febrero,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+81200029,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tordillo,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+81900039,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tornquist,7593,2531,"6,3723166074015545","0,011853022520742789",57,"1,0092260952990086","44,40350877192982",Agudos,"3,107649896623019","0,025671042729325196","2,050525902009149","0,46172734959466777",Anomalia de datos,Peor desempeno
+83300039,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tres Arroyos,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+83300241,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tres Arroyos,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+80501076,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,27150,9050,"1,1901289134438306","0,003278084714548803",24,"1,1668187347931873","377,0833333333333",Agudos,"3,107649896623019","0,025671042729325196","0,38296750053379713","0,12769581466217958",Anomalia de datos,Dentro de banda
+80500860,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+80501103,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+80501033,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+80501086,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,18362,"6120,666666666667","1,0696002614094324","0,0022873325345822895",30,"0,587712895377129","204,0222222222222",Agudos,"3,107649896623019","0,025671042729325196","0,34418299904752203","0,08910166052465668",Normal,Dentro de banda
+80501041,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+80501084,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+80501068,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,37344,12448,"2,8493198371893746","0,0012585689802913453",149,"0,7252032919186097","83,54362416107382",Agudos,"3,107649896623019","0,025671042729325196","0,9168728563296776","0,0490267962062026",Normal,Dentro de banda
+80501085,Hosp. Zonal Gral. de Ag. M. V. de Martinez,Municipal,Tigre,3330,1110,"3,3525525525525524","0,018018018018018018","15,666666666666666","0,7764119216050098","70,85106382978724",Agudos,"3,107649896623019","0,025671042729325196","1,0788063855570285","0,701881034128591",Normal,Dentro de banda
+53900139,Antropozoonosis,Municipal,Merlo,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+78400106,Asociación Hogar de Ancianos de Suipacha,Municipal,Suipacha,9,"4,5","237,22222222222223","0,2222222222222222",36,"0,9032846715328468","0,08333333333333333",Estadia prolongada,"3,107649896623019","0,025671042729325196","76,3349251407","8,656532754252623",Excluido (no agudo),Dentro de banda
+42701436,Atención Médica en Acción Social,Municipal,La Matanza,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+27001201,Base XX C.A.P.S.,Provincial,Ezeiza,31060,"10353,333333333334","5,993689632968448","0,0577269800386349","217,33333333333334","0,7719215007893587","47,63803680981595",Agudos,"5,54963563866355","0,04447215295095595","1,0800149817424471","1,2980477941397714",Normal,Dentro de banda
+27001146,Base XX C.A.P.S.,Municipal,Ezeiza,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+27001120,Base XXIV C.A.P.S. La Cunita,Municipal,Ezeiza,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+27001111,Base XXX Sanidad Aeroportuaria,Municipal,Ezeiza,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+27001138,Base XiX C.A.P.S.,Municipal,Ezeiza,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+41201195,C. Móvil Asist. Salud para mi Gente,Municipal,José C. Paz,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+71400259,C.A.P.S Dr. Ramón Carrillo,Municipal,Salto,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+70700283,C.A.P.S Móvil Dra. Mabel Santiago,Municipal,Saladillo,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600481,C.A.P.S N° 26,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+55300122,C.A.P.S Polideportivo Municipal M. Hermoso,Municipal,Monte Hermoso,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+75601935,C.A.P.S San Pantaleón.,Municipal,San Isidro,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+75600732,C.A.P.S.  La  Rivera,Municipal,San Isidro,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+56800963,C.A.P.S. 10 de Agosto,Municipal,Morón,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+70700151,C.A.P.S. 31 de Julio,Municipal,Saladillo,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+37100106,C.A.P.S. A. Nº 10 Bo. Esperanza,Municipal,General San Martín,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+25200318,C.A.P.S. A. Peñalba,Municipal,Escobar,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+25200326,C.A.P.S. A. Sambrano,Municipal,Escobar,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+53200436,C.A.P.S. Adultos Mayores,Municipal,Mercedes,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+25200237,C.A.P.S. Alfredo Vilar,Municipal,Escobar,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+56801269,C.A.P.S. Almafuerte,Municipal,Morón,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+53200391,C.A.P.S. Altamira,Municipal,Mercedes,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+70700097,C.A.P.S. Alvarez de Toledo,Municipal,Saladillo,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+49700435,C.A.P.S. Ameghino,Municipal,Luján,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+64800298,C.A.P.S. América Unida A. Ilia,Municipal,Presidente Perón,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+70700160,C.A.P.S. Asencio Ibarbia,Municipal,Saladillo,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+75600660,C.A.P.S. Bajo Boulogne,Municipal,San Isidro,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+16100092,C.A.P.S. Barrio Altos del Canal,Municipal,Carmen de Areco,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+16100076,C.A.P.S. Bo. Abel Etchart,Municipal,Carmen de Areco,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+42000306,C.A.P.S. Bo. Barrio San Martín,Municipal,La Costa,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+31500102,C.A.P.S. Bo. Belgrano,Municipal,General Juan Madariaga,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+28000131,C.A.P.S. Bo. Belgrano,Municipal,General Alvarado,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+07700125,C.A.P.S. Bo. El Sol,Municipal,Arrecifes,,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+7700125,C.A.P.S. Bo. El Sol,Municipal,Arrecifes,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+7700061,C.A.P.S. Bo. FONAVI R. Carrillo,Municipal,Arrecifes,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+07700061,C.A.P.S. Bo. FONAVI R. Carrillo,Municipal,Arrecifes,,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+42000250,C.A.P.S. Bo. Las Quintas,Municipal,La Costa,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+56800653,C.A.P.S. Bo. Marina,Municipal,Morón,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+16100068,C.A.P.S. Bo. Marín,Municipal,Carmen de Areco,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+16100050,C.A.P.S. Bo. Norte,Municipal,Carmen de Areco,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+31500111,C.A.P.S. Bo. Norte,Municipal,General Juan Madariaga,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+75601990,C.A.P.S. Bo. Obrero,Municipal,San Isidro,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+28000140,C.A.P.S. Bo. Oeste,Municipal,General Alvarado,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+42000276,C.A.P.S. Bo. P. J. Rocco,Municipal,La Costa,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+28000123,C.A.P.S. Bo. Parque Bristol,Municipal,General Alvarado,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+68600077,C.A.P.S. Bo. Progreso,Municipal,Rojas,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+16100084,C.A.P.S. Bo. Rigacci,Municipal,Carmen de Areco,,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+31500129,C.A.P.S. Bo. San Martín,Municipal,General Juan Madariaga,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+7700117,C.A.P.S. Bo. Santa Lina,Municipal,Arrecifes,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+07700117,C.A.P.S. Bo. Santa Lina,Municipal,Arrecifes,,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+07700079,C.A.P.S. Bo. Santa Teresita,Municipal,Arrecifes,,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+7700079,C.A.P.S. Bo. Santa Teresita,Municipal,Arrecifes,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+68600093,C.A.P.S. Bo. Sta. Teresa,Municipal,Rojas,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+68600085,C.A.P.S. Bo. Unión,Municipal,Rojas,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+42000331,C.A.P.S. B° Chino,Municipal,La Costa,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+7000158,C.A.P.S. C. Liaudat,Municipal,Baradero,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+07000158,C.A.P.S. C. Liaudat,Municipal,Baradero,,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+68600018,C.A.P.S. Carabelas,Municipal,Rojas,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+07000042,C.A.P.S. Carmelo Di Gregorio,Municipal,Baradero,,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+7000042,C.A.P.S. Carmelo Di Gregorio,Municipal,Baradero,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+70700089,C.A.P.S. Cazón,Municipal,Saladillo,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600603,C.A.P.S. Centro de Salud Colinas de Otamendi,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+42000136,C.A.P.S. Costa Azul,Municipal,La Costa,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+25200642,C.A.P.S. DR. RAUL FRANCISCO PROTA,Municipal,Escobar,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+75600635,C.A.P.S. Diagonal Salta,Municipal,San Isidro,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+60900187,C.A.P.S. Don Domingo,Municipal,Pehuajó,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+10500251,C.A.P.S. Dr. Bo. Cooperativa de la Vivienda,Municipal,Bolívar,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+10500226,C.A.P.S. Dr. F. Ravassi,Municipal,Bolívar,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+60900101,C.A.P.S. Dr. Ferreyra,Municipal,Pehuajó,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+56800891,C.A.P.S. Dr. Gelpi,Municipal,Morón,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+10500170,C.A.P.S. Dr. J. M. Tonelli,Municipal,Bolívar,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+25200067,C.A.P.S. Dr. L. Resio,Municipal,Escobar,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+07000174,C.A.P.S. Dr. Luis F. Leloir,Municipal,Baradero,,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+7000174,C.A.P.S. Dr. Luis F. Leloir,Municipal,Baradero,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+56800637,C.A.P.S. Dr. Monte,Municipal,Morón,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+75600538,C.A.P.S. Dr. R. Carrillo,Municipal,San Isidro,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+64800742,C.A.P.S. Dr. R. Matera,Municipal,Presidente Perón,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+60900110,C.A.P.S. Dr. Raúl Peláez,Municipal,Pehuajó,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+10500234,C.A.P.S. Dr. W. González,Municipal,Bolívar,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+25200648,C.A.P.S. Dra Elena Del Carmen Rojas,Municipal,Escobar,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+79100301,C.A.P.S. E. Olivero,Municipal,Tandil,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+60900144,C.A.P.S. El Cerrito,Municipal,Pehuajó,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+49700389,C.A.P.S. El Milagro,Municipal,Luján,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+25200105,C.A.P.S. Eva Perón,Municipal,Escobar,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+53200200,C.A.P.S. F. Quiroga,Municipal,Mercedes,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+16100041,C.A.P.S. Gowin,Municipal,Carmen de Areco,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+79100319,C.A.P.S. Gral. Belgrano,Municipal,Tandil,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+51501478,C.A.P.S. Grand Bourg Sur,Municipal,Malvinas Argentinas,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+64800025,C.A.P.S. Guernica,Municipal,Presidente Perón,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+53200153,C.A.P.S. H. Irigoyen,Municipal,Mercedes,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+70700186,C.A.P.S. Hilario Armendariz,Municipal,Saladillo,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+07000204,C.A.P.S. Intendente P. Carossi,Municipal,Baradero,,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+7000204,C.A.P.S. Intendente P. Carossi,Municipal,Baradero,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+7000051,C.A.P.S. Intendente P. Carossi - Alsina,Municipal,Baradero,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+07000051,C.A.P.S. Intendente P. Carossi - Alsina,Municipal,Baradero,,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+28000085,C.A.P.S. J. De Dios Estela,Municipal,General Alvarado,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+53200234,C.A.P.S. José Hernández,Municipal,Mercedes,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+60900161,C.A.P.S. José Hernández,Municipal,Pehuajó,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+7000166,C.A.P.S. José P. Astigueta,Municipal,Baradero,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+07000166,C.A.P.S. José P. Astigueta,Municipal,Baradero,,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+25200164,C.A.P.S. Juan C. Selles,Municipal,Escobar,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+56801340,C.A.P.S. Juana Azurduy,Municipal,Morón,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+79100386,C.A.P.S. L. de la Torre,Municipal,Tandil,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+28000107,C.A.P.S. La Ballenera,Municipal,General Alvarado,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+07700109,C.A.P.S. La Cumbre,Municipal,Arrecifes,,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+7700109,C.A.P.S. La Cumbre,Municipal,Arrecifes,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+64800484,C.A.P.S. La Lata,Municipal,Presidente Perón,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+64800688,C.A.P.S. La Lata,Provincial,Presidente Perón,12998,"4332,666666666667","4,750038467456532","0,018156639482997384","87,66666666666667","0,6258748563668651","49,42205323193917",Agudos,"5,54963563866355","0,04447215295095595","0,8559189786017061","0,40826985603824023",Normal,Dentro de banda
+39200279,C.A.P.S. Leonardo Favio,Municipal,General Villegas,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+56800734,C.A.P.S. Loma Verde,Municipal,Morón,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+53200242,C.A.P.S. Lomas del Pacífico,Municipal,Mercedes,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+53200081,C.A.P.S. Los Blandengues,Municipal,Mercedes,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+49700478,C.A.P.S. Los Laureles,Municipal,Luján,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+7000247,C.A.P.S. Los Laureles,Municipal,Baradero,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+07000247,C.A.P.S. Los Laureles,Municipal,Baradero,,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+7000239,C.A.P.S. Los Patos,Municipal,Baradero,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+07000239,C.A.P.S. Los Patos,Municipal,Baradero,,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+53200366,C.A.P.S. Los Robles,Municipal,Mercedes,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+53200013,C.A.P.S. Luis Agote,Municipal,Mercedes,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+53200048,C.A.P.S. Luis Agote,Provincial,Mercedes,13682,"4560,666666666667","4,498465136675924","0,04480339131705891","104,66666666666667","0,5567513649727005","43,57324840764331",Agudos,"5,54963563866355","0,04447215295095595","0,8105874744885475","1,00744821970882",Normal,Dentro de banda
+25200649,C.A.P.S. MARCELO ENRIQUE DIMAIO,Municipal,Escobar,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+56800696,C.A.P.S. Malvinas Argentinas,Municipal,Morón,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+42000161,C.A.P.S. Mar de Ajó Norte,Municipal,La Costa,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+53200129,C.A.P.S. Martín Güemes,Municipal,Mercedes,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+07000182,C.A.P.S. Ntra. Sra. de Pompeya,Municipal,Baradero,,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+7000182,C.A.P.S. Ntra. Sra. de Pompeya,Municipal,Baradero,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+56800807,C.A.P.S. Ntra. Sra. del Valle,Municipal,Morón,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600449,C.A.P.S. N° 23 Río Luján,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600058,C.A.P.S. Nº 1 Del Pino,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600252,C.A.P.S. Nº 10,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600244,C.A.P.S. Nº 11 Santa Lucía,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600236,C.A.P.S. Nº 12 San Felipe,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+37100530,C.A.P.S. Nº 12 V. Piaggio,Municipal,General San Martín,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600287,C.A.P.S. Nº 13 Las Esperanza,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600279,C.A.P.S. Nº 14 Las Praderas,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600295,C.A.P.S. Nº 15 Río Paraná,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600309,C.A.P.S. Nº 16 San Jacinto,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600317,C.A.P.S. Nº 17 Las Campanas,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600325,C.A.P.S. Nº 18 Siderca,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600333,C.A.P.S. Nº 19,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600180,C.A.P.S. Nº 2 Otamendi,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600341,C.A.P.S. Nº 20 Sarmiento,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600350,C.A.P.S. Nº 21 Albizola,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600384,C.A.P.S. Nº 22 Canal Martín Irigoyen,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600406,C.A.P.S. Nº 24 Los Pioneros,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600163,C.A.P.S. Nº 5 Ariel del Plata,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600074,C.A.P.S. Nº 6 Villanueva,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600228,C.A.P.S. Nº 7 Las Acacias,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+12600171,C.A.P.S. Nº 8 Islas,Municipal,Campana,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+37101737,C.A.P.S. Nº11 Santa Ana,Municipal,General San Martín,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+49700419,C.A.P.S. Open Door,Municipal,Luján,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+49700451,C.A.P.S. Padre Varela,Municipal,Luján,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+64800084,C.A.P.S. Parque Americano,Municipal,Presidente Perón,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+28000093,C.A.P.S. Parque Mar,Municipal,General Alvarado,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+53200196,C.A.P.S. Peñaloza,Municipal,Mercedes,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+70700062,C.A.P.S. Polvaredas,Municipal,Saladillo,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+10500196,C.A.P.S. Pompeya,Municipal,Bolívar,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+49700346,C.A.P.S. Pque. Lasa,Municipal,Luján,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+56800912,C.A.P.S. Pte. Ibañez,Municipal,Morón,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+68600051,C.A.P.S. R. Obligado,Municipal,Rojas,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+25200270,C.A.P.S. Ramón Carrillo,Municipal,Escobar,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+72800137,C.A.P.S. Ramón Carrillo,Municipal,San Andrés de Giles,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+25200651,C.A.P.S. SAN MIGUEL,Municipal,Escobar,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+70700101,C.A.P.S. Saavedra,Municipal,Saladillo,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+70700127,C.A.P.S. Saladillo Norte,Municipal,Saladillo,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+42000268,C.A.P.S. San Bernardo,Municipal,La Costa,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+53200161,C.A.P.S. San Francisco,Municipal,Mercedes,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+75601194,C.A.P.S. San Isidro Labrador,Municipal,San Isidro,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+53200102,C.A.P.S. San José,Municipal,Mercedes,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+53200137,C.A.P.S. San Martín,Municipal,Mercedes,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+64800114,C.A.P.S. San Martín,Municipal,Presidente Perón,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+70700135,C.A.P.S. San Roque,Municipal,Saladillo,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+7000069,C.A.P.S. Santa Coloma,Municipal,Baradero,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+07000069,C.A.P.S. Santa Coloma,Municipal,Baradero,,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+56801399,C.A.P.S. Santa Laura,Municipal,Morón,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+60900136,C.A.P.S. Sta. Teresita Fonavi II,Municipal,Pehuajó,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+53200072,C.A.P.S. Tomás Jofré,Municipal,Mercedes,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+7700036,C.A.P.S. Tood,Municipal,Arrecifes,0,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+07700036,C.A.P.S. Tood,Municipal,Arrecifes,,,,,,,,Sin internacion,"3,107649896623019","0,025671042729325196",,,Excluido (no agudo),Dentro de banda
+16100025,C.A.P.S. Tres Sargentos,Municipal,Carmen de Areco,0,,,,,,,Sin internacion,

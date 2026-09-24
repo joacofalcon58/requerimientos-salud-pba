@@ -1,0 +1,14 @@
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# Local backups (redundant with git history)
+_backup_*/
+
+# Local SQL Server connector setup (reveals local machine name/user)
+sql-mcp-server/
+
+# Noise logs from local MCP tooling sessions
+*.log
+
+# Local dev-preview scratch config (not part of the deliverable)
+.claude/

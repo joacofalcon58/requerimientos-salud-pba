@@ -1,0 +1,244 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "45f8b697738d8e67fc31",
+  "position": {
+    "x": 968,
+    "y": 272,
+    "z": 6000,
+    "height": 260,
+    "width": 912,
+    "tabOrder": 5000
+  },
+  "visual": {
+    "visualType": "clusteredBarChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DIM_TipoPrestacion"
+                    }
+                  },
+                  "Property": "tipo_prestacion"
+                }
+              },
+              "queryRef": "DIM_TipoPrestacion.tipo_prestacion",
+              "nativeQueryRef": "tipo_prestacion",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "GBA_Rendimientos"
+                    }
+                  },
+                  "Property": "Cantidad por Tipo (2005)"
+                }
+              },
+              "queryRef": "GBA_Rendimientos.Cantidad por Tipo (2005)",
+              "nativeQueryRef": "Cantidad por Tipo (2005)",
+              "displayName": "2005"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "GBA_Rendimientos"
+                    }
+                  },
+                  "Property": "Cantidad por Tipo (2024)"
+                }
+              },
+              "queryRef": "GBA_Rendimientos.Cantidad por Tipo (2024)",
+              "nativeQueryRef": "Cantidad por Tipo (2024)",
+              "displayName": "2024"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "DIM_TipoPrestacion"
+                  }
+                },
+                "Property": "orden"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "labels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "legend": [
+        {
+          "properties": {
+            "position": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Top'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dataPoint": [
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#1F3464'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "GBA_Rendimientos.Cantidad por Tipo (2005)"
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#BE1717'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "GBA_Rendimientos.Cantidad por Tipo (2024)"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Composición de la demanda por tipo de prestación (2005 vs 2024)'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "22bacd71043b321d42ed",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_TipoPrestacion"
+              }
+            },
+            "Property": "tipo_prestacion"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "c530c1249e070d36a812",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GBA_Rendimientos"
+              }
+            },
+            "Property": "Cantidad por Tipo (2005)"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "5325bc5019977eac764e",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "GBA_Rendimientos"
+              }
+            },
+            "Property": "Cantidad por Tipo (2024)"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

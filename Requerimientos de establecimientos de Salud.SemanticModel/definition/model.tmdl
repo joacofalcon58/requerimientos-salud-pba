@@ -1,0 +1,25 @@
+model Model
+	culture: es-AR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-AR
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["stg rendimiento_2005_2023","GBA_Rendimientos","Calendario","DIM_Establecimientos","DIM_Geografia","DIM_Dependencia","aux_Georef_Municipios"]
+
+annotation PBI_ProTooling = ["DevMode","MCP-PBIModeling"]
+
+ref table GBA_Rendimientos
+ref table Calendario
+ref table DIM_Establecimientos
+ref table DIM_Geografia
+ref table DIM_Dependencia
+ref table DIM_TipoPrestacion
+ref table Métrica
+
+ref cultureInfo es-AR
+

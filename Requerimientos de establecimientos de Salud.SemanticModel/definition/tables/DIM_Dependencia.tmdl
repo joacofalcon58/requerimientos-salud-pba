@@ -1,0 +1,39 @@
+table DIM_Dependencia
+	lineageTag: 78861d5e-951d-4548-9fe7-f8699a592912
+
+	column dependencia_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 0806f2ce-5db5-47ee-bb9b-3e93aaebc0f3
+		summarizeBy: none
+		sourceColumn: dependencia_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column dependencia
+		dataType: string
+		lineageTag: 0ab503bb-1246-4040-95a9-b75583480b4d
+		summarizeBy: none
+		sourceColumn: dependencia
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DIM_Dependencia = m
+		mode: import
+		source =
+				let
+				    Origen = GBA_Rendimientos,
+				    #"Columnas seleccionadas" = Table.SelectColumns(Origen, {"dependencia"}),
+				    #"Nulos quitados" = Table.SelectRows(#"Columnas seleccionadas", each [dependencia] <> null and Text.Trim(Text.From([dependencia])) <> ""),
+				    #"Textos limpios" = Table.TransformColumns(#"Nulos quitados", {{"dependencia", each Text.Trim(Text.Clean(Text.From(_))), type text}}),
+				    #"Duplicados quitados" = Table.Distinct(#"Textos limpios", {"dependencia"}),
+				    #"Filas ordenadas" = Table.Sort(#"Duplicados quitados", {{"dependencia", Order.Ascending}}),
+				    #"ID agregado" = Table.AddIndexColumn(#"Filas ordenadas", "dependencia_id", 1, 1, Int64.Type),
+				    #"Columnas reordenadas" = Table.ReorderColumns(#"ID agregado", {"dependencia_id", "dependencia"})
+				in
+				    #"Columnas reordenadas"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

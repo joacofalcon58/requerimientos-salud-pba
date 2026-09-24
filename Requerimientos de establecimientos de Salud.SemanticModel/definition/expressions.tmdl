@@ -1,0 +1,29 @@
+expression 'stg rendimiento_2005_2023' =
+		let
+		  Origen = Sql.Database("NEO", "GBA_Rendimientos"),
+		  #"Navegación 1" = Origen{[Schema = "stg", Item = "rendimiento_2005_2023"]}[Data]
+		in
+		  #"Navegación 1"
+	lineageTag: 811cfe6c-1080-4124-941f-476c6c42b433
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
+expression aux_Georef_Municipios =
+		let
+		    Origen = Json.Document(Web.Contents("https://apis.datos.gob.ar", [RelativePath = "georef/api/v2.0/municipios", Query = [provincia = "06", max = "200", aplanar = "true"]])),
+		    #"Municipios obtenidos" = Origen[municipios],
+		    #"Convertido en tabla" = Table.FromList(#"Municipios obtenidos", Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+		    #"Municipios expandidos" = Table.ExpandRecordColumn(#"Convertido en tabla", "Column1", {"id", "nombre", "centroide_lat", "centroide_lon"}, {"municipio_id_georef", "municipio_georef", "latitud", "longitud"}),
+		    #"Tipos cambiados" = Table.TransformColumnTypes(#"Municipios expandidos", {{"municipio_id_georef", type text}, {"municipio_georef", type text}, {"latitud", type number}, {"longitud", type number}}),
+		    #"Nombre normalizado" = Table.AddColumn(#"Tipos cambiados", "municipio_nombre_norm", each Text.Upper(Text.Trim(Text.Clean([municipio_georef]))), type text),
+		    #"Filas ordenadas" = Table.Sort(#"Nombre normalizado", {{"municipio_georef", Order.Ascending}})
+		in
+		    #"Filas ordenadas"
+	lineageTag: 4118fe31-e91d-4866-967e-4c8231e1ed0e
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

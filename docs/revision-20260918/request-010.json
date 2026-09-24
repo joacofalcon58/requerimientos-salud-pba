@@ -1,0 +1,1 @@
+{"name": "dax_query_operations", "arguments": {"request": {"operation": "Execute", "query": "EVALUATE DIM_Geografia\n", "maxRows": 50000}}}

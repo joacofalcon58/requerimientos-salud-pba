@@ -1,0 +1,16 @@
+relationship AutoDetected_f6bd1710-0d54-4cb7-8db7-a42f9349dc5a
+	fromColumn: GBA_Rendimientos.dependencia
+	toColumn: DIM_Dependencia.dependencia
+
+relationship AutoDetected_77a0f3e3-2d63-4913-9de1-e4cfbbf66e45
+	fromColumn: GBA_Rendimientos.establecimiento_id
+	toColumn: DIM_Establecimientos.establecimiento_id
+
+relationship AutoDetected_01cc687a-50d2-44ab-bddf-8a67977021ca
+	fromColumn: GBA_Rendimientos.municipio_id
+	toColumn: DIM_Geografia.municipio_id
+
+relationship c8c2afb6-92c5-aa56-3e7b-796a0fd381ff
+	fromColumn: GBA_Rendimientos.Fecha
+	toColumn: Calendario.Fecha
+

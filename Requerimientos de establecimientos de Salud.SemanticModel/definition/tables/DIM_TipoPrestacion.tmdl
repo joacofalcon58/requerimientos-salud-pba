@@ -1,0 +1,17 @@
+table DIM_TipoPrestacion
+	lineageTag: 33562454-e9f9-4672-b6e4-a039c7d53cdd
+
+	column tipo_prestacion
+		lineageTag: 5a9d686e-06e3-4ee2-8a24-14242d27e1f2
+		isNameInferred
+		sourceColumn: [tipo_prestacion]
+
+	column orden
+		lineageTag: fc29c626-6544-4185-bd4c-16ec53908da8
+		isNameInferred
+		sourceColumn: [orden]
+
+	partition DIM_TipoPrestacion = calculated
+		mode: import
+		source = UNION(ROW("tipo_prestacion", "Consultas médicas", "orden", 1), ROW("tipo_prestacion", "Consultas odontológicas", "orden", 2), ROW("tipo_prestacion", "Consultas paramédicas", "orden", 3), ROW("tipo_prestacion", "Interconsultas", "orden", 4))
+

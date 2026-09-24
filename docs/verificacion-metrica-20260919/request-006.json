@@ -1,0 +1,1 @@
+{"name": "dax_query_operations", "arguments": {"request": {"operation": "Execute", "query": "EVALUATE SELECTCOLUMNS(FILTER(INFO.VIEW.MEASURES(),[Name] IN {\"Total Egresos\",\"Total Defunciones\",\"Tasa de Mortalidad Hospitalaria %\",\"Promedio D\u00edas de Estad\u00eda\"}),\"Nombre\",[Name],\"Expresion\",[Expression],\"Estado\",[State])\n", "maxRows": 50000}}}

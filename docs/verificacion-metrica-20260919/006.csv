@@ -1,0 +1,5 @@
+[Nombre],[Expresion],[Estado]
+Total Egresos,SUM(GBA_Rendimientos[egresos]),Valid
+Total Defunciones,SUM(GBA_Rendimientos[defunciones]),Valid
+Promedio Días de Estadía,"DIVIDE(SUM(GBA_Rendimientos[dias_estadia]), [Total Egresos])",Valid
+Tasa de Mortalidad Hospitalaria %,"DIVIDE([Total Defunciones], [Total Egresos])",Valid
